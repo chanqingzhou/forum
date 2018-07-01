@@ -1,0 +1,25 @@
+{% extends 'pyp/base.html' %}
+
+{% block title %}
+{{faculty}}
+{% endblock %}
+
+{% block right %}
+Select year of paper
+{% endblock %}
+
+{% block content %}
+    {% for year in module.moduleyear_set.all %}
+        <br>
+        <div style="text-align:center;font-size:30px">
+        <a href="{% url 'pyp:viewAnswer'  faculty.id   module.id year.id%} "><strong><bold>{{year}}</bold></strong></a>
+        </div>
+    <br>
+    {% endfor %}
+{% endblock %}
+
+{% block reverse %}
+
+<strong> <a href="{% url 'pyp:modules' faculty.id %}">GO BACK</a></strong>
+
+{% endblock %}

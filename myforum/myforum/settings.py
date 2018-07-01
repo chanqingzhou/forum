@@ -31,9 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
     'pyp.apps.PypConfig',
+    'accounts.apps.AccountsConfig',
     'django.contrib.auth',
+    'django.contrib.admin',
+
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -51,11 +53,12 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'myforum.urls'
+LOGIN_REDIRECT_URL = '../../pyp'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+         'DIRS': ['.accounts/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

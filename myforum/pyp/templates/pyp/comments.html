@@ -1,0 +1,20 @@
+{% extends 'pyp/base.html' %}
+
+{% block content %}
+    {% for comment in answer.comments_set.all %}
+        {{comment.user}}     {{comment.pub_date}}<br>
+        {{comment.text}}
+    {% endfor %}}
+
+    <p> New Answer??</p>
+    <form onsubmit="{% url 'pyp:viewComment' faculty.id module.id year.id answer.id %}" method="post">
+        <input style="height:200px;font-size:14pt;" type="text" name="comment">
+        Posting as
+        {% if user.is_authenticated %}
+            {{ user }}
+        {% else %}
+            annonymous
+        {% endif %}
+        <input type="submit" style="height:30px">
+    </form>
+{% endblock %}

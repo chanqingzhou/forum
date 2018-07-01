@@ -16,7 +16,7 @@ label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-w
 /* --------------------------------------- GRID Layout ----------------------------------------- */
 * { box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 body { margin: 0 auto }
-.grid { margin: 0 auto; max-width: 1200px; width: 100%; }
+	.grid { margin: 0 auto; max-width: 1200px; width: 100%; }
 /* You can choose the grid 1200 or 1140 or 1024 or 960 as per your requirement */
 .g1140 { margin: 0 auto; max-width: 1140px; width: 100%; }
 .g1024 { margin: 0 auto; max-width: 1024px; width: 100%; }
@@ -65,7 +65,7 @@ h4 { font-size: 24px; line-height: 32px; margin-bottom: 4px; }
 h5 { font-size: 20px; line-height: 27px; font-family: OpenSansRegular; font-weight: bold; }
 h6 { font-size: 16px; line-height: 27px; font-family: OpenSansRegular; font-weight: bold; }
 a { color: #2ba6cb; text-decoration: none; line-height: inherit; }
-a:hover { color: #2795b6 }
+a:hover { color: red;}
 a:focus { color: #2ba6cb; outline: none; }
 p { margin-bottom: 20px }
 p a, p a:visited { line-height: inherit }
@@ -161,12 +161,12 @@ th { background-color: #d9edf0; background-image: -webkit-gradient(linear,left t
 .tab-container .tab-page { visibility: hidden; background-color: #fff; color: #888; display: block; position: absolute; top: 22px; height: auto; width: 100%; float: left; padding: 5px; border: 1px solid #ddd; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
 .tab-container .tab-radio:checked ~ .tab-page { visibility: visible }
 /* =Media query for 960 Screens - sets nested grids to 100%-------------------------------------------------------------- */
-@media only screen and (max-width:960px) { 
+@media only screen and (max-width:960px) {
 	.row .row .c1, .row .row .c2, .row .row .c3, .row .row .c4, .row .row .c5, .row .row .c6, .row .row .c7, .row .row .c8, .row .row .c9, .row .row .c10, .row .row .c11, .row .row .c12, .row .row .c1-5, .row .row .c1-8 { width: 100%; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; }
 	.row .row>div:last-child { margin-bottom: 0 !important }
 }
 /* =Media query for iPad and tablets-------------------------------------------------------------- */
-@media handheld,only screen and (max-width:768px),only screen and (max-device-width:768px) and (orientation:portrait) { 
+@media handheld,only screen and (max-width:768px),only screen and (max-device-width:768px) and (orientation:portrait) {
 	body { font-size: 90% }
 	.row { margin-bottom: 0!important }
 	.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c1-5, .c1-8 { width: 100%; margin-right: 0; margin-left: 0; margin-bottom: 20px; }
@@ -370,7 +370,7 @@ ul.accordion>li.active .content { background: white; display: block; border-left
 	Mosaic - Sliding Boxes and Captions jQuery Plugin
 	Version 1.0
 	www.buildinternet.com/project/mosaic
-	
+
 	By Sam Dunn / One Mighty Roar (www.onemightyroar.com)
 	Released under MIT License / GPL License
 */
@@ -432,7 +432,7 @@ ul.accordion>li.active .content { background: white; display: block; border-left
 .noshadowbox { padding: 0 15px 15px 15px; background-color: #F5F5F5; text-align: center; border: 1px solid #e9e9e9; border-top: 0px; }
 .noshadowbox h5 { font-size: 20px; line-height: 35px; margin-top: 0px; padding-top: 20px; font-family: OpenSansLight; }
 .bottomlink { margin-bottom: -12px; text-align: right; margin-right: -15px; }
-/* TWITTER 
+/* TWITTER
 ================================================== */
 #ticker { height: 146px; overflow-y: hidden; position: relative; }
 #ticker ul.tweet_list { position: absolute; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
