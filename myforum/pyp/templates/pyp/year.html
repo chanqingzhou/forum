@@ -1,11 +1,20 @@
 {% extends 'pyp/base.html' %}
 
 {% block title %}
-{{faculty}}
-{% endblock %}
-
-{% block right %}
-Select year of paper
+<div class="grid">
+		<div class="row">
+			<div class="c8">
+				<h1 class="titlehead">
+                    {{faculty}}
+                </h1>
+			</div>
+			<div class="c4">
+				<h1 class="titlehead rightareaheader">
+                    Select year of paper
+                </h1>
+			</div>
+		</div>
+	</div>
 {% endblock %}
 
 {% block content %}

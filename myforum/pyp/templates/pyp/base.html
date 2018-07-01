@@ -42,8 +42,13 @@
 				</li>
 				<li><a href="#">Account</a>
 				<ul style="display: none;">
-					<li><a href="register.html">Register</a></li>
-					<li><a href="../../../accounts/templates/registration/login.html">Login</a></li>
+					{% if not user.is_authenticated %}
+						<li><a href="accounts/signup">Register</a></li>
+						<li><a href="/accounts/login">Login</a></li>
+					{% else %}
+						<li><a href="/accounts/logout">Profile</a></li>
+						<li><a href="/accounts/logout">Logout</a></li>
+					{% endif %}
 					<!--<li class="last"><a href="404.html">404 Page</a></li><--></-->
 				</ul>
 				</li>
@@ -56,23 +61,11 @@
 <div class="undermenuarea">
 	<div class="boxedshadow">
 	</div>
-	<div class="grid">
-		<div class="row">
-			<div class="c8">
-				<h1 class="titlehead">
-                    {% block title %}
-                    {% endblock %}
-                </h1>
-			</div>
-			<div class="c4">
-				<h1 class="titlehead rightareaheader">
-                    {% block right%}
-                    {% endblock %}
-                </h1>
-			</div>
-		</div>
-	</div>
+	{% block title %}
+	{% endblock %}
 </div>
+{% block under %}
+{% endblock %}
 <div class="grid">
 {% block content %}
 {% endblock %}
@@ -84,16 +77,67 @@
 </div>
 <!-- JAVASCRIPTS
 ================================================== -->
-<!-- all -->
 <script src="{% static 'pyp/js/modernizr-latest.js' %}"></script>
 
 <!-- menu & scroll to top -->
-<script src="{% static 'pyp/js/common.js'%}"></script>
+<script src="{% static 'pyp/js/common.js' %}"></script>
 
-<!-- twitter -->
-<script src="{% static 'pyp/js/jquery.tweet.js'%}"></script>
+<!-- slider -->
+<script src="{% static 'pyp/js/jquery.cslider.js' %}"></script>
 
 <!-- cycle -->
-<script src="{% static 'pyp/js/jquery.cycle.js'%}"></script>
+<script src="{% static 'pyp/js/jquery.cycle.js' %}"></script>
+
+<!-- carousel items -->
+<script src="{% static 'pyp/js/jquery.carouFredSel-6.0.3-packed.js' %}"></script>
+
+<!-- twitter -->
+<script src="{% static 'pyp/js/jquery.tweet.js' %}"></script>
+
+{% block js %}
+<!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
+<script type="text/javascript">
+$(window).load(function(){
+			$('#recent-projects').carouFredSel({
+				responsive: true,
+				width: '100%',
+				auto: true,
+				circular	: true,
+				infinite	: false,
+				prev : {
+					button		: "#car_prev",
+					key			: "left",
+						},
+				next : {
+					button		: "#car_next",
+					key			: "right",
+							},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					},
+				scroll : 2000,
+				items: {
+					visible: {
+						min: 4,
+						max: 4
+					}
+				}
+			});
+		});
+</script>
+
+<!-- Call opacity on hover images from carousel-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("img.imgOpa").hover(function() {
+      $(this).stop().animate({opacity: "0.6"}, 'slow');
+    },
+    function() {
+      $(this).stop().animate({opacity: "1.0"}, 'slow');
+    });
+  });
+</script>
+	{% endblock js %}
 </body>
 </html>
