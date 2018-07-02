@@ -14,6 +14,10 @@ def index(request):
     #your stuff goes here
     return render(request,'pyp/index.html')
 
+
+def timeline(request):
+    return render(request, 'pyp/timeline.html')
+    
 def modules(request,faculty_id):
     template = loader.get_template('pyp/modules.html')
     faculty = get_object_or_404(Faculty, pk=faculty_id)

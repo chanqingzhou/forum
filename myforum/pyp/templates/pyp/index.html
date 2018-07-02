@@ -14,7 +14,7 @@
 				Sign up for NUS C.A.P 5.0 and start collaborating and discussing PYP answers now!
 			</p>
 			<!-- button -->
-			<a href="../accounts/templates/registration/signup.html" class="da-link" style="width:122px;">Sign Up</a>
+			<a href="{% url 'accounts:signup' %}"class="da-link" style="width:122px;">Sign Up</a>
 			<div class="da-img">
 				<img src="{% static 'pyp/images/stress.jpg' %}" alt="stressed" style="padding-top:50px">
 			</div>
@@ -26,7 +26,7 @@
 				 Think your answer is the model answer for the question? Upload your answers online and let your peers marvel at your incredible work!
 			</p>
 			<!-- button -->
-			<a href="register.html" class="da-link" style="width:290px;">Start uploading now</a>
+			<a href="{% url 'accounts:signup' %}" class="da-link" style="width:290px;">Start uploading now</a>
 			<div class="da-img">
 				<img src="{% static 'pyp/images/upload.png' %}" alt="upload" style="padding-top:50px">
 			</div>
@@ -38,7 +38,7 @@
 				 Upvote those answers that are accurate and correct and downvote those answers that are wrong!
 			</p>
 			<!-- button -->
-			<a href="register.html" class="da-link" style="width:150px;">Vote now</a>
+			<a href="{% url 'accounts:signup' %}" class="da-link" style="width:150px;">Vote now</a>
 			<div class="da-img">
 				<img src="{% static 'pyp/images/upvote.png' %}" alt="upvote" style="padding-top:50px">
 			</div>
