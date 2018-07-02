@@ -1,0 +1,99 @@
+{% extends 'pyp/base.html' %}
+
+{% block title %}
+<div class="grid">
+		<div class="row">
+			<div class="c8">
+				<h1 class="titlehead">
+                    {{module.module_code}}
+                </h1>
+			</div>
+			<div class="c4">
+				<h1 class="titlehead rightareaheader">
+                    {{year.year}}
+                </h1>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block content %}
+<div class=" grid">
+    <table>
+			<!-- FileName--> <col width="30%">
+            <!-- uploaded by --><col width="20"
+			<!-- Upvote --> <col width="15%"
+			<!-- Downvote --> <col width="15%">
+            <!-- Comments --><col width = 20%>
+		  <thead>
+		    <tr>
+		      <th>File Name</th>
+				<th> Uploaded by</th>
+				<th>Upvotes</th>
+                <th>DownVote</th>
+                <th>Comments</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+          {% for answer in year.answer_set.all %}
+            {% for answerf in answer.answerfile_set.all %}
+
+                <tr>
+                    <td>
+                        <strong>
+                            <a href="{% url 'pyp:downloadAnswer' faculty.id module.id year.id answerf.id %}">{{answerf.title}}</a>
+                        </strong>
+                    </td>
+                    <td>
+                        <strong>
+                            havent fill in yet LOL
+                        </strong>
+                    </td>
+                    <td>
+                        <strong>
+                            <form action = "{% url 'pyp:viewAnswer'  faculty.id module.id year.id %}" method="post">{% csrf_token %}
+                            <button about="submit"  name="upvote" value="{{answer.id}}"> upvote </button
+                        </strong>
+                    </td>
+
+                    <td>
+                        <button type="submit" name="downvote" value="{{answer.id}}"> downvote </button>
+                    </form>
+                    </td>
+                    <td>
+                        <strong>
+                        <a href=" {% url 'pyp:viewComment' faculty.id module.id year.id answer.id %}"> View Comments</a>
+                        </strong>
+                    </td>
+                </tr>
+            {% endfor %}
+		  {% endfor %}
+
+
+				<!-- to add new row -->
+				<!-- 	<tr>
+					<td><strong></strong></td>
+					<td></td>
+					<td></td>
+				</tr> -->
+		  </tbody>
+		</table>
+
+</div>
+<p><br><br>
+    <form action="{% url 'pyp:viewAnswer'  faculty.id module.id year.id %}"  method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+    <strong><bold>Upload a new answer</bold></strong>
+    <br>
+    <br>
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+</p>
+{% endblock %}
+
+{% block reverse %}
+
+<strong> <a href="{% url 'pyp:viewYear' faculty.id module.id  %}">GO BACK</a></strong>
+
+{% endblock %}

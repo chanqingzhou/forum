@@ -1,0 +1,21 @@
+{% extends  'registration/base.html' %}
+{% block content %}
+  <h2>Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Sign up</button>
+  </form>
+
+  <!-- STYLES & JQUERY
+================================================== -->
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/login.css'%}"/>
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
+{% endblock %}

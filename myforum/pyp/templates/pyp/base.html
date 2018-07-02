@@ -1,0 +1,144 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+<head><meta name="viewport" content="width=device-width"/>
+<title>NUS C.A.P 5.0</title>
+<!-- STYLES & JQUERY
+================================================== -->
+	{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/slider.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
+<script src="{% static 'pyp/js/jquery-1.9.0.min.js' %}"></script><!-- the rest of the scripts at the bottom of the document -->
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
+<link rel="manifest" href="{% static 'pyp/images/manifest.json' %}">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{% static 'pyp/images/ms-icon-144x144.png' %}">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<!-- TOP LOGO & MENU
+================================================== -->
+<div class="grid">
+	<div class="row space-bot">
+		<!--Logo-->
+		<div class="c4">
+			<a href="{% url 'pyp:index' %}">
+			<img src="{% static 'pyp/images/logo.png' %}" class="logo" alt="">
+			</a>
+		</div>
+		<!--Menu-->
+		<div class="c8">
+			<nav id="topNav">
+			<ul id="responsivemenu">
+				<li class="active"><a href="{% url 'pyp:index' %}"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+				<li><a href="#">About</a>
+					<ul style="display: none;">
+						<li><a href="timeline.html">Timeline</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Account</a>
+				<ul style="display: none;">
+					{% if not user.is_authenticated %}
+						<li><a href="{% url 'accounts:signup' %}">Register</a></li>
+						<li><a href="/accounts/login">Login</a></li>
+					{% else %}
+						<li><a href="/accounts/logout">Profile</a></li>
+						<li><a href="/accounts/logout">Logout</a></li>
+					{% endif %}
+					<!--<li class="last"><a href="404.html">404 Page</a></li><--></-->
+				</ul>
+				</li>
+			</nav>
+		</div>
+	</div>
+</div>
+<!-- HEADER
+================================================== -->
+<div class="undermenuarea">
+	<div class="boxedshadow">
+	</div>
+	{% block title %}
+	{% endblock %}
+</div>
+{% block under %}
+{% endblock %}
+<div class="grid">
+{% block content %}
+{% endblock %}
+</div>
+<br><br><br>
+<div class="grid">
+{% block reverse %}
+{% endblock %}
+</div>
+<!-- JAVASCRIPTS
+================================================== -->
+<script src="{% static 'pyp/js/modernizr-latest.js' %}"></script>
+
+<!-- menu & scroll to top -->
+<script src="{% static 'pyp/js/common.js' %}"></script>
+
+<!-- slider -->
+<script src="{% static 'pyp/js/jquery.cslider.js' %}"></script>
+
+<!-- cycle -->
+<script src="{% static 'pyp/js/jquery.cycle.js' %}"></script>
+
+<!-- carousel items -->
+<script src="{% static 'pyp/js/jquery.carouFredSel-6.0.3-packed.js' %}"></script>
+
+<!-- twitter -->
+<script src="{% static 'pyp/js/jquery.tweet.js' %}"></script>
+
+{% block js %}
+<!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
+<script type="text/javascript">
+$(window).load(function(){
+			$('#recent-projects').carouFredSel({
+				responsive: true,
+				width: '100%',
+				auto: true,
+				circular	: true,
+				infinite	: false,
+				prev : {
+					button		: "#car_prev",
+					key			: "left",
+						},
+				next : {
+					button		: "#car_next",
+					key			: "right",
+							},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					},
+				scroll : 2000,
+				items: {
+					visible: {
+						min: 4,
+						max: 4
+					}
+				}
+			});
+		});
+</script>
+
+<!-- Call opacity on hover images from carousel-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("img.imgOpa").hover(function() {
+      $(this).stop().animate({opacity: "0.6"}, 'slow');
+    },
+    function() {
+      $(this).stop().animate({opacity: "1.0"}, 'slow');
+    });
+  });
+</script>
+	{% endblock js %}
+</body>
+</html>

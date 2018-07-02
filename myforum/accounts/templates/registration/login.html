@@ -1,0 +1,91 @@
+
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Login</title>
+</head>
+<!-- STYLES & JQUERY
+================================================== -->
+		{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/login.css'%}"/>
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
+<body>
+	<!-- TOP LOGO & MENU
+	================================================== -->
+	<div class="grid">
+		<div class="row space-bot">
+			<!--Logo-->
+			<div class="c4">
+				<a href="{% url 'pyp:index' %}">
+				<img src="{% static 'pyp/images/logo.png' %}" class="logo" alt="">
+				</a>
+			</div>
+			<!--Menu-->
+			<div class="c8">
+				<nav id="topNav">
+				<ul id="responsivemenu">
+					<li class="active"><a href="../../pyp/templates/pyp:index.html"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- CONTENT
+	================================================== -->
+	<div class="login-card">
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+
+{% if next %}
+    {% if user.is_authenticated %}
+    <p>Your account doesn't have access to this page. To proceed,
+    please login with an account that has access.</p>
+    {% else %}
+    <p>Please login to see this page.</p>
+    {% endif %}
+{% endif %}
+{% if not user.is_authenticated %}
+    <form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+
+    <div>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+    </div>
+    <div>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+    </div>
+
+    <div>
+      <input type="submit" class = "login login-submit"  value="login" />
+      <input type="hidden" name="next" value="{{ next }}" />
+    </div>
+    </form>
+
+    {# Assumes you setup the password_reset view in your URLconf #}
+		<div class="login-help>
+    <p><a href="{% url 'password_reset' %}">Lost password?</a></p>
+		<p> <a href="{% url 'accounts:signup' %}"> Sign up Now</a></p>
+	</div>
+{% else %}
+    logged in alr
+	<p><a href="{% url 'logout' %}"> Click here to log out</p>
+{% endif %}
+</div>
+<!-- JAVASCRIPTS
+================================================== -->
+<!-- register -->
+<script src="js/register.js"></script>
+</body>
+</html>

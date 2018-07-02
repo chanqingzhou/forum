@@ -1,0 +1,236 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+<head><meta name="viewport" content="width=device-width"/>
+<title>NUS C.A.P 5.0</title>
+<!-- STYLES & JQUERY
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/icons.css"/>
+<link rel="stylesheet" type="text/css" href="css/skinblue.css"/><!-- Change skin color here -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<script src="js/jquery-1.9.0.min.js"></script><!-- scripts at the bottom of the document -->
+<script src="js/jquerymig.js"></script>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+<!-- TOP LOGO & MENU
+================================================== -->
+<div class="grid">
+	<div class="row space-bot">
+		<!--Logo-->
+		<div class="c4">
+			<a href="index.html">
+				<img src="images/logo.png" class="logo" alt="">
+			</a>
+		</div>
+		<!--Menu-->
+		<div class="c8">
+			<nav id="topNav">
+			<ul id="responsivemenu">
+				<li class="active"><a href="index.html"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+				<li><a href="#">About</a>
+					<ul style="display: none;">
+						<li><a href="timeline.html">Timeline</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Account</a>
+				<ul style="display: none;">
+					<li><a href="register.html">Register</a></li>
+					<li><a href="../../../accounts/templates/registration/login.html">Login</a></li>
+					<!--<li class="last"><a href="404.html">404 Page</a></li><--></-->
+				</ul>
+				</li>
+			</nav>
+		</div>
+	</div>
+</div>
+<!-- HEADER
+================================================== -->
+<div class="undermenuarea">
+	<div class="boxedshadow">
+	</div>
+	<div class="grid">
+		<div class="row">
+			<div class="c8">
+				<h1 class="titlehead">Timeline</h1>
+			</div>
+			<div class="c4">
+				<h1 class="titlehead rightareaheader">Timeline of project</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTENT
+================================================== -->
+<div class="grid">
+		<div class="shadowundertop">
+		</div>
+		<div class="row">
+			<div class="c12">
+				<h1 class="maintitle ">
+				<span>NEWS / UPDATES / HISTORY</span>
+				</h1>
+				<div id="timelineContainer">
+					<div class="timelineToggle">
+						<p>
+							<a class="expandAll">+ expand all</a>
+						</p>
+					</div>
+					<br class="clear">
+
+
+					<div class="timelineMajor">
+						<h2 class="timelineMajorMarker"><span>May, 2018</span></h2>
+						<dl class="timelineMinor">
+							<dt id="19540517"><a>Start of Orbital</a></dt>
+							<dd class="timelineEvent" id="19540517EX" style="display: none;">
+							<h3>14 May 2018</h3>
+							<h3>15 May 2018</h3>
+							<p>
+								 Start of Orbital! Attending Liftoff Workshops and presenting our initial idea to peers.
+							<br class="clear">
+							</dd>
+
+							<dt id="19540518"><a>Team meeting</a></dt>
+							<dd class="timelineEvent" id="19540518EX" style="display: none;">
+							<h3>19 May 2018</h3>
+							<p>
+								 Idea brainstorming and delegation of roles:
+								 <br>Jack - Frontend programming
+								 <br>Qing Zhou - Backend programming
+								 <br>Decided to build a mobile application for sharing of past year paper answers
+
+							</p>
+							<br class="clear">
+							</dd>
+
+							<dt id="19540519"><a>Learning various environments</a></dt>
+							<dd class="timelineEvent" id="19540519EX" style="display: none;">
+							<h3>20 May 2018 to 30 May 2018</h3>
+							<p>
+								Installation and experimenting with Android Studio, Visual Studio etc.
+								<br>Reading up on tutorials for these environments
+
+							</p>
+							<br class="clear">
+							</dd>
+
+							<dt id="19540520"><a>Milestone 1 Meeting</a></dt>
+							<dd class="timelineEvent" id="19540520EX" style="display: none;">
+							<h3>30 May 2018</h3>
+							<p>
+								Meet up for discussion for Milestone 1 meeting.
+								<br>Making of Milestone 1 videos and poster.
+
+							</p>
+							<br class="clear">
+							</dd>
+
+
+						</dl>
+						<!-- /.timelineMinor -->
+					</div>
+
+
+					<!-- /.timelineMajor -->
+					<div class="timelineMajor">
+						<h2 class="timelineMajorMarker"><span>June, 2018</span></h2>
+						<dl class="timelineMinor">
+							<dt id="19550828"><a>Milestone 1</a></dt>
+							<dd class="timelineEvent" id="19550828EX" style="display: none;">
+							<h3>4 June 2018</h3>
+							<p>
+								 Deadline for Milestone 1.
+								 <br>Submission of project log, video and poster.
+							<br class="clear">
+							</dd>
+							<!-- /.timelineEvent -->
+						</dl>
+						<!-- /.timelineMinor -->
+						<dl class="timelineMinor">
+							<dt id="19551201"><a>Peer evaluation</a></dt>
+							<dd class="timelineEvent" id="19551201EX" style="display: none;">
+							<h3>5 June 2018 to 11 June 2018</h3>
+							<p>
+								 Peer evaluation for other project groups submissions.
+							</p>
+							<br class="clear">
+							</dd>
+
+							<dt id="19551202"><a>Evaluation of own Project</a></dt>
+							<dd class="timelineEvent" id="19551202EX" style="display: none;">
+							<h3>12 June 2018</h3>
+							<p>
+								 Team meeting for evaluating our own project.
+								 <br>Took the advice of most peer evaluations to change it to a web application instead of a mobile application.
+								 <br>Learning of HTML and CSS to build web application
+							<br class="clear">
+							</dd>
+
+							<dt id="19551203"><a>Frontend programming</a></dt>
+							<dd class="timelineEvent" id="19551203EX" style="display: none;">
+							<h3>13 June 2018 to 20 June 2018</h3>
+							<p>
+								 Frontend programming of website.
+							<br class="clear">
+							</dd>
+
+							<dt id="19551204"><a>Backend programming</a></dt>
+							<dd class="timelineEvent" id="19551204EX" style="display: none;">
+							<h3>20 June 2018 to 30 June 2018</h3>
+							<p>
+								 Backend programming of website.
+							<br class="clear">
+							</dd>
+						</dl>
+						<!-- /.timelineMinor -->
+					</div>
+
+
+					<!-- /.timelineMajor -->
+					<div class="timelineMajor">
+						<h2 class="timelineMajorMarker"><span>July, 2018</span></h2>
+						<dl class="timelineMinor">
+							<dt id="19570904"><a>Milestone 2</a></dt>
+							<dd class="timelineEvent" id="19570904EX" style="display: none;">
+							<h3>2 July 2018</h3>
+							<p>
+								 Deadline for Milestone 2: Prototype web application to be out.
+							</p>
+							<br class="clear">
+							</dd>
+							<!-- /.timelineEvent -->
+						</dl>
+						<!-- /.timelineMinor -->
+					</div>
+
+					<br class="clear">
+				</div>
+			</div>
+		</div>
+</div><!-- end grid -->
+
+<!-- JAVASCRIPTS
+================================================== -->
+<!-- all -->
+<script src="js/modernizr-latest.js"></script>
+
+<!-- menu & scroll to top -->
+<script src="js/common.js"></script>
+
+<!-- twitter -->
+<script src="js/jquery.tweet.js"></script>
+
+<!-- cycle -->
+<script src="js/jquery.cycle.js"></script>
+
+<!-- call timeline script -->
+<script src="js/timeline.js"></script>
+
+</body>
+</html>

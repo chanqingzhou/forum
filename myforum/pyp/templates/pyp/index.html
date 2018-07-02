@@ -1,0 +1,232 @@
+{% extends 'pyp/base.html' %}
+
+{% block title %}
+{% load staticfiles %}
+
+	<!-- SLIDER AREA
+	================================================== -->
+	<div id="da-slider" class="da-slider">
+		<!--Slide 1-->
+		<div class="da-slide">
+			<h2> Discuss PYP answers </h2>
+			<p>
+				Stuck on a question? Have a heart-burning question about past year paper questions but have no one to consult?
+				Sign up for NUS C.A.P 5.0 and start collaborating and discussing PYP answers now!
+			</p>
+			<!-- button -->
+			<a href="../accounts/templates/registration/signup.html" class="da-link" style="width:122px;">Sign Up</a>
+			<div class="da-img">
+				<img src="{% static 'pyp/images/stress.jpg' %}" alt="stressed" style="padding-top:50px">
+			</div>
+		</div>
+		<!--Slide 2-->
+		<div class="da-slide">
+			<h2>Upload your answers</h2>
+			<p>
+				 Think your answer is the model answer for the question? Upload your answers online and let your peers marvel at your incredible work!
+			</p>
+			<!-- button -->
+			<a href="register.html" class="da-link" style="width:290px;">Start uploading now</a>
+			<div class="da-img">
+				<img src="{% static 'pyp/images/upload.png' %}" alt="upload" style="padding-top:50px">
+			</div>
+		</div>
+		<!--Slide 3-->
+		<div class="da-slide">
+			<h2> Upvote and downvote</h2>
+			<p>
+				 Upvote those answers that are accurate and correct and downvote those answers that are wrong!
+			</p>
+			<!-- button -->
+			<a href="register.html" class="da-link" style="width:150px;">Vote now</a>
+			<div class="da-img">
+				<img src="{% static 'pyp/images/upvote.png' %}" alt="upvote" style="padding-top:50px">
+			</div>
+		</div>
+		<nav class="da-arrows">
+		<span class="da-arrows-prev"></span>
+		<span class="da-arrows-next"></span>
+		</nav>
+	</div>
+{% endblock %}
+<!-- UNDER SLIDER - BLACK AREA
+================================================== -->
+{% block under %}
+<div class="undersliderblack">
+	<div class="grid">
+		<div class="row space-bot">
+			<div class="c12">
+				<!--Box 1-->
+				<div class="c4 introbox introboxfirst">
+					<div class="introboxinner">
+						<span class="homeicone">
+						<i class="icon-bolt"></i>
+						</span> Upvote and Downvote System to allow users to see the most accurate answers
+					</div>
+				</div>
+				<!--Box 2-->
+				<div class="c4 introbox introboxmiddle">
+					<div class="introboxinner">
+						<span class="homeicone">
+						<i class="icon-cog"></i>
+						</span> Practice and compare Past Year Paper answers before your mid-terms or finals!
+					</div>
+				</div>
+				<!--Box 3-->
+				<div class="c4 introbox introboxlast">
+					<div class="introboxinner">
+						<span class="homeicone">
+						<i class="icon-lightbulb"></i>
+						</span> Upload your own answers online and discuss with peers!
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="shadowunderslider">
+</div>
+{% endblock %}
+<!-- START content area
+================================================== -->
+{% block content %}
+<div class="grid">
+	<div class="row space-bot">
+		<!--INTRO-->
+		<div class="c12">
+			<div class="royalcontent">
+				<h1 class="royalheader">NUS C.A.P 5.0</h1>
+				<h1 class="title" style="text-transform:none;">Click on any of the faculties to start discussing now!</h1>
+			</div>
+		</div>
+		<!--Faculty of Engineering-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><img src="{% static '/pyp/images/engineering.png' %}" alt="engineering" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Engineering</h2>
+			<div class="noshadowbox">
+				<ul style="padding:20%">
+					<!-- TODO: add the engineering html -->
+					<li><a href="mo">Electrical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Civil and Environment Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Mechanical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Biomedical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Chemical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Materials Science Engineering</a></li>
+				</ul>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Faculty of Science-->
+		<div class="c4">
+		<h2 class="title hometitlebg"><img src="{% static '/pyp/images/science.png' %}" alt="science" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Science</h2>
+			<div class="noshadowbox">
+				<ul style="padding:16%">
+					<!-- TODO: Add the sciences html -->
+					<li><a href="{% url 'pyp:modules' 1 %}" >Mathematics and Applied Mathematics</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Statistics and Applied Statistics</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Chemistry</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Physics</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Life Sciences</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Pharmacy</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Computational Biology</a></li>
+				</ul>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Faculty of Arts and Social Science-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><img src="{% static 'pyp/images/arts.png'%}" alt="arts" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Arts and Social Science</h2>
+			<div class="noshadowbox">
+				<ul style="padding:3%">
+					<!-- TODO: Add the FASS html -->
+					<li><a href="{% url 'pyp:modules' 1 %}" >Psychology</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Geography</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >History</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Japanese Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Chinese Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Sociology</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Philosophy</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Global Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Social Work</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Political Science</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Communicatons and New Media</a></li>
+
+				</ul>
+
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+	</div>
+<div class="grid">
+	<div class="row space-bot">
+		<!--Faculty of Engineering-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><img src="{% static '/pyp/images/engineering.png' %}" alt="engineering" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Engineering</h2>
+			<div class="noshadowbox">
+				<ul style="padding:20%">
+					<!-- TODO: add the engineering html -->
+					<li><a href="{% url 'pyp:modules' 1 %}" >Electrical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Civil and Environment Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Mechanical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Biomedical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Chemical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Materials Science Engineering</a></li>
+				</ul>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Faculty of Science-->
+		<div class="c4">
+		<h2 class="title hometitlebg"><img src="{% static '/pyp/images/science.png' %}" alt="science" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Science</h2>
+			<div class="noshadowbox">
+				<ul style="padding:16%">
+					<!-- TODO: Add the sciences html -->
+					<li><a href="{% url 'pyp:modules' 1 %}" >Mathematics and Applied Mathematics</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Statistics and Applied Statistics</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Chemistry</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Physics</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Life Sciences</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Pharmacy</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Computational Biology</a></li>
+				</ul>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Faculty of Arts and Social Science-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><img src="{% static 'pyp/images/arts.png'%}" alt="arts" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Arts and Social Science</h2>
+			<div class="noshadowbox">
+				<ul style="padding:3%">
+					<!-- TODO: Add the FASS html -->
+					<li><a href="{% url 'pyp:modules' 1 %}" >Psychology</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Geography</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >History</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Japanese Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Chinese Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Sociology</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Philosophy</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Global Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Social Work</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Political Science</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >Communicatons and New Media</a></li>
+
+				</ul>
+
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

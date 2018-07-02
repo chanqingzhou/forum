@@ -1,0 +1,85 @@
+{% extends 'pyp/base.html' %}
+{% load staticfiles %}
+{% block title %}
+<div class="grid">
+		<div class="row">
+			<div class="c8">
+				<h1 class="titlehead">
+                    {{faculty}}
+                </h1>
+			</div>
+			<div class="c4">
+				<h1 class="titlehead rightareaheader">
+                    Select module
+                </h1>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block content %}
+		<div class="shadowundertop">
+		</div>
+		<h1 class="royalheader">{{faculty.faculty_text}}</h1>
+
+		<table>
+			<!-- Module Code --> <col width="20%">
+			<!-- Module Name --> <col width="50%"
+			<!-- Last Post --> <col width="30%">
+		  <thead>
+		    <tr>
+		      <th>MODULE CODE</th>
+				<th> MODULE Name</th>
+				<th>Answers</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  {% for module in faculty.module_set.all %}
+			<tr>
+				<td>
+					<strong>
+						{{module.module_code}}
+					</strong>
+				</td>
+				<td>e
+					<strong>
+						{{module.module_text}}
+					</strong>
+				</td>
+				<td>
+					<a href={% url 'pyp:viewYear' faculty.id module.id %}> Answers</a>
+				</td>
+			</tr>
+		  {% endfor %}
+
+
+				<!-- to add new row -->
+				<!-- 	<tr>
+					<td><strong></strong></td>
+					<td></td>
+					<td></td>
+				</tr> -->
+		  </tbody>
+		</table>
+	<div class="grid">
+				<div class="shadowundertop">
+		</div>
+		Module not found?
+		<br>
+		Add your own module
+		<form action="{% url 'pyp:submitModule' faculty.id %}" method="post">{% csrf_token %}
+			Module Code: <input type="text" name="modulecode">
+			Module Name: <input type="text" name="modulename">
+			<input type="submit" name="SUBMIT">
+		</form>
+	</div>
+{% endblock %}
+
+{% block reverse %}
+
+<strong> <a href="{% url 'pyp:index' %}">GO BACK</a></strong>
+
+{% endblock %}
+
+
+
