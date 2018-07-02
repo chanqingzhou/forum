@@ -46,22 +46,27 @@
                     </td>
                     <td>
                         <strong>
-                            havent fill in yet LOL
+                            {{user}}
                         </strong>
                     </td>
                     <td>
                         <strong>
                             <form action = "{% url 'pyp:viewAnswer'  faculty.id module.id year.id %}" method="post">{% csrf_token %}
-                            <button about="submit"  name="upvote" value="{{answer.id}}"> upvote </button
+                                upvote:{{answer.upvote}}<br>
+                            <button about="submit"  name="upvote" value="{{answer.id}}"> upvote </button>
                         </strong>
                     </td>
 
                     <td>
+                        <strong>
+                        downvote:{{answer.downvote}}<br>
                         <button type="submit" name="downvote" value="{{answer.id}}"> downvote </button>
+                        </strong>
                     </form>
                     </td>
                     <td>
                         <strong>
+
                         <a href=" {% url 'pyp:viewComment' faculty.id module.id year.id answer.id %}"> View Comments</a>
                         </strong>
                     </td>

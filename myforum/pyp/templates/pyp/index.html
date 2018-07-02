@@ -2,7 +2,7 @@
 
 {% block title %}
 {% load staticfiles %}
-
+{% if not user.is_authenticated %}
 	<!-- SLIDER AREA
 	================================================== -->
 	<div id="da-slider" class="da-slider">
@@ -48,10 +48,12 @@
 		<span class="da-arrows-next"></span>
 		</nav>
 	</div>
+{% endif %}
 {% endblock %}
 <!-- UNDER SLIDER - BLACK AREA
 ================================================== -->
 {% block under %}
+{% if not user.is_authenticated %}
 <div class="undersliderblack">
 	<div class="grid">
 		<div class="row space-bot">
@@ -87,6 +89,7 @@
 </div>
 <div class="shadowunderslider">
 </div>
+{% endif %}
 {% endblock %}
 <!-- START content area
 ================================================== -->
@@ -167,16 +170,13 @@
 	<div class="row space-bot">
 		<!--Faculty of Engineering-->
 		<div class="c4">
-			<h2 class="title hometitlebg"><img src="{% static '/pyp/images/engineering.png' %}" alt="engineering" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Engineering</h2>
+			<h2 class="title hometitlebg"><img src="{% static '/pyp/images/engineering.png' %}" alt="engineering" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Business</h2>
 			<div class="noshadowbox">
 				<ul style="padding:20%">
 					<!-- TODO: add the engineering html -->
-					<li><a href="{% url 'pyp:modules' 1 %}" >Electrical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Civil and Environment Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Mechanical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Biomedical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Chemical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Materials Science Engineering</a></li>
+					<li></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >School of Business</a></li>
+
 				</ul>
 				<p class="bottomlink">
 					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
@@ -185,17 +185,12 @@
 		</div>
 		<!--Faculty of Science-->
 		<div class="c4">
-		<h2 class="title hometitlebg"><img src="{% static '/pyp/images/science.png' %}" alt="science" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Science</h2>
+		<h2 class="title hometitlebg"><img src="{% static '/pyp/images/science.png' %}" alt="science" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Computing</h2>
 			<div class="noshadowbox">
-				<ul style="padding:16%">
+				<ul style="padding:20%">
 					<!-- TODO: Add the sciences html -->
-					<li><a href="{% url 'pyp:modules' 1 %}" >Mathematics and Applied Mathematics</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Statistics and Applied Statistics</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Chemistry</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Physics</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Life Sciences</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Pharmacy</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Computational Biology</a></li>
+					<li><a href="{% url 'pyp:modules' 1 %}" >School Of Computing</a></li>
+
 				</ul>
 				<p class="bottomlink">
 					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
@@ -204,22 +199,16 @@
 		</div>
 		<!--Faculty of Arts and Social Science-->
 		<div class="c4">
-			<h2 class="title hometitlebg"><img src="{% static 'pyp/images/arts.png'%}" alt="arts" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Arts and Social Science</h2>
+			<h2 class="title hometitlebg"><img src="{% static 'pyp/images/arts.png'%}" alt="arts" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Law</h2>
 			<div class="noshadowbox">
-				<ul style="padding:3%">
+				<ul style="padding:20%">
 					<!-- TODO: Add the FASS html -->
-					<li><a href="{% url 'pyp:modules' 1 %}" >Psychology</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Geography</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >History</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Japanese Studies</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Chinese Studies</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Sociology</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Philosophy</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Global Studies</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Social Work</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Political Science</a></li>
-					<li><a href="{% url 'pyp:modules' 1 %}" >Communicatons and New Media</a></li>
+					<li></li><li></li>
+					<li></li>
+					<li></li>
 
+					<li><a href="{% url 'pyp:modules' 1 %}" >School of Law</a></li>
+					<li></li><li></li><li></li><li></li>
 				</ul>
 
 				<p class="bottomlink">

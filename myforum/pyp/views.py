@@ -25,7 +25,12 @@ def modules(request,faculty_id):
 
 def submitModule(request, faculty_id):
     faculty= get_object_or_404(Faculty, pk=faculty_id)
-    faculty.module_set.create(module_text=request.POST['modulename'],module_code=request.POST['modulecode'])
+    module=faculty.module_set.create(module_text=request.POST['modulename'],module_code=request.POST['modulecode'])
+    x=2018
+    for count in range(0,10):
+
+        module.moduleyear_set.create(year=str(x - count) + "Sem2")
+        module.moduleyear_set.create(year=str(x-count)+"Sem1")
     return HttpResponseRedirect(reverse('pyp:modules',args=(faculty_id,)))
 
 def viewYear(request,faculty_id, module_id):
@@ -78,14 +83,12 @@ def viewComment(request,faculty_id,module_id,year_id,answer_id):
     year= get_object_or_404(ModuleYear,pk=year_id)
     answer=get_object_or_404(Answer,pk=answer_id)
     if request.method =='POST':
-        if form.is_valid():
-            if user.is_authenticated():
-                username= user.id
-            else:
-                username='annoyamous'
-            comment = Comments(user=username,text=request.POST['comment'],pub_date=timezone.now())
-            answer.comment_set.add(comment,bulk=False)
-            comment.save()
+        if request.user.is_authenticated:
+            username= request.user.id
+        else :
+            username='annoyamous'
+        answer.comments_set.create( user =username,text=request.POST['comment'],pub_date=timezone.now())
+
         return HttpResponseRedirect(request.path_info)
     else:
         form =Commentform()

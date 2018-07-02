@@ -2,12 +2,14 @@
 {% load staticfiles %}
 {% block content %}
     {% for comment in answer.comments_set.all %}
+
         {{comment.user}}     {{comment.pub_date}}<br>
         {{comment.text}}
-    {% endfor %}}
-
-    <p> New Answer??</p>
-    <form onsubmit="{% url 'pyp:viewComment' faculty.id module.id year.id answer.id %}" method="post">
+    {% endfor %}
+	<div class="boxedshadow">
+	</div><br><br>
+    <p> Make a new comment?</p>
+    <form onsubmit="{% url 'pyp:viewComment' faculty.id module.id year.id answer.id %}" method="post">{% csrf_token %}
         <input style="height:200px;font-size:14pt;" type="text" name="comment">
         Posting as
         {% if user.is_authenticated %}
