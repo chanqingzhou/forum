@@ -14,7 +14,7 @@ def index(request):
     #your stuff goes here
     return render(request,'pyp/index.html')
 
-def module(request,faculty_id):
+def modules(request,faculty_id):
     template = loader.get_template('pyp/modules.html')
     faculty = get_object_or_404(Faculty, pk=faculty_id)
     return render(request,'pyp/modules.html', {'faculty':faculty})

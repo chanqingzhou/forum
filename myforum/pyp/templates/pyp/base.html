@@ -26,7 +26,7 @@
 	<div class="row space-bot">
 		<!--Logo-->
 		<div class="c4">
-			<a href="index.html">
+			<a href="{% url 'pyp:index' %}">
 			<img src="{% static 'pyp/images/logo.png' %}" class="logo" alt="">
 			</a>
 		</div>
@@ -43,7 +43,7 @@
 				<li><a href="#">Account</a>
 				<ul style="display: none;">
 					{% if not user.is_authenticated %}
-						<li><a href="accounts/signup">Register</a></li>
+						<li><a href="{% url 'accounts:signup' %}">Register</a></li>
 						<li><a href="/accounts/login">Login</a></li>
 					{% else %}
 						<li><a href="/accounts/logout">Profile</a></li>
