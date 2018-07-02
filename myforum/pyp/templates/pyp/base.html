@@ -5,9 +5,9 @@
 <!-- STYLES & JQUERY
 ================================================== -->
 	{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}/">
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}/">
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/slider.css' %}/">
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/slider.css' %}"/>
 <link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
 <link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
 <script src="{% static 'pyp/js/jquery-1.9.0.min.js' %}"></script><!-- the rest of the scripts at the bottom of the document -->
@@ -44,7 +44,7 @@
 				<ul style="display: none;">
 					{% if not user.is_authenticated %}
 						<li><a href="{% url 'accounts:signup' %}">Register</a></li>
-						<li><a href="/accounts/login">Login</a></li>
+						<li><a href="{% url 'login' %}">Login</a></li>
 					{% else %}
 						<li><a href="/accounts/logout">Profile</a></li>
 						<li><a href="/accounts/logout">Logout</a></li>
