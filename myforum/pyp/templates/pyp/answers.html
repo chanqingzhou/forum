@@ -46,7 +46,7 @@
                     </td>
                     <td>
                         <strong>
-                            {{user}}
+                            {{answer.author}}
                         </strong>
                     </td>
                     <td>
@@ -86,14 +86,18 @@
 
 </div>
 <p><br><br>
-    <form action="{% url 'pyp:viewAnswer'  faculty.id module.id year.id %}"  method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-    <strong><bold>Upload a new answer</bold></strong>
-    <br>
-    <br>
-    {{ form }}
-    <input type="submit" value="Submit" />
-</form>
+    {%if user.is_authenticated %}
+        <form action="{% url 'pyp:viewAnswer'  faculty.id module.id year.id %}"  method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+        <strong><bold>Upload a new answer</bold></strong>
+        <br>
+        <br>
+        {{ form }}
+        <input type="submit" value="Submit" />
+        </form>
+    {% else %}
+        please log in to paost answers
+    {% endif%}
 </p>
 {% endblock %}
 

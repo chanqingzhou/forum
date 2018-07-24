@@ -57,7 +57,7 @@ def viewAnswer(request,faculty_id,module_id,year_id):
             answer.downvote += 1
             answer.save()
         else :
-            answer=Answer(answer_text="test")
+            answer=Answer(answer_text="test",author=request.user)
             year.answer_set.add(answer,bulk=False)
             form = UploadFileForm(request.POST, request.FILES)
             if form.is_valid():

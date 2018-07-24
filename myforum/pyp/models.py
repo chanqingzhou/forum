@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 class Faculty(models.Model):
     faculty_text=models.CharField(max_length=40)
     def __str__(self):
@@ -20,6 +20,7 @@ class ModuleYear(models.Model):
 
 class Answer(models.Model):
     year = models.ForeignKey(ModuleYear, on_delete=models.CASCADE)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
     answer_text = models.CharField(max_length=1000)
     upvote = models.IntegerField(default=0)
     downvote = models.IntegerField(default=0)
