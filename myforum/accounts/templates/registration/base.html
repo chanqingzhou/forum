@@ -21,22 +21,39 @@
 	<!-- TOP LOGO & MENU
 	================================================== -->
 	<div class="grid">
-		<div class="row space-bot">
-			<!--Logo-->
-			<div class="c4">
-				<a href="{% url 'pyp:index' %}">
-				<img src="{%static 'pyp/images/logo.png' %}" class="logo" alt="">
-				</a>
-			</div>
-			<!--Menu-->
-			<div class="c8">
-				<nav id="topNav">
-				<ul id="responsivemenu">
-					<li class="active"><a href="{% url 'pyp:index' %}"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
-				</nav>
-			</div>
+	<div class="row space-bot">
+		<!--Logo-->
+		<div class="c4">
+			<a href="{% url 'pyp:index' %}">
+				<img src="{% static 'pyp/images/logo.png' %}" class="logo" alt="">
+			</a>
+		</div>
+		<!--Menu-->
+		<div class="c8">
+			<nav id="topNav">
+			<ul id="responsivemenu">
+				<li class="active"><a href="{% url 'pyp:index' %}"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+				<li><a href="#">About</a>
+					<ul style="display: none;">
+						<li><a href="timeline.html">Timeline</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Account</a>
+				<ul style="display: none;">
+					{% if not user.is_authenticated %}
+						<li><a href="{% url 'accounts:signup' %}">Register</a></li>
+						<li><a href="/accounts/login">Login</a></li>
+					{% else %}
+						<li><a href="/accounts/profile">Profile</a></li>
+						<li><a href="/accounts/logout">Logout</a></li>
+					{% endif %}
+					<!--<li class="last"><a href="404.html">404 Page</a></li><-->
+				</ul>
+				</li>
+			</nav>
 		</div>
 	</div>
+</div>
 	<!-- CONTENT
 	================================================== -->
 {% block content %}
