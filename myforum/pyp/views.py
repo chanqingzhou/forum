@@ -9,11 +9,12 @@ from django.utils import timezone
 from django.http import Http404
 from .forms import UploadFileForm,Commentform
 
+def homepage(request):
+    return HttpResponse('index')
 
 def index(request):
     #your stuff goes here
     return render(request,'pyp/index.html')
-
 
 def timeline(request):
     return render(request, 'pyp/timeline.html')
@@ -93,4 +94,5 @@ def viewComment(request,faculty_id,module_id,year_id,answer_id):
     else:
         form =Commentform()
     return render(request, 'pyp/comments.html', {'form': form, 'module': module, 'year': year, 'faculty': faculty, 'answer':answer})
+
 

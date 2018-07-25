@@ -1,0 +1,32 @@
+{% extends 'registration/base.html' %}
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Profile</title>
+</head>
+<!-- STYLES & JQUERY
+================================================== -->
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/login.css'%}"/>
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
+
+{% block content %}
+
+<div class="container">
+    <h1>Profile</h1>
+    <p>Username: {{ user }} </p>
+    <p>First Name: {{ user.first_name }} </p>
+    <p>Last Name: {{ user.last_name }} </p>
+    <p>Email: {{ user.email }}</p>
+    <p> Number of Upvotes: </p>
+    <p> Number of Downvotes: </p>
+</div>
+
+{% endblock %}
