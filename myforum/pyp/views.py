@@ -27,11 +27,6 @@ def modules(request,faculty_id):
 def submitModule(request, faculty_id):
     faculty= get_object_or_404(Faculty, pk=faculty_id)
     module=faculty.module_set.create(module_text=request.POST['modulename'],module_code=request.POST['modulecode'])
-    x=2018
-    for count in range(0,10):
-
-        module.moduleyear_set.create(year=str(x - count) + "Sem2")
-        module.moduleyear_set.create(year=str(x-count)+"Sem1")
     return HttpResponseRedirect(reverse('pyp:modules',args=(faculty_id,)))
 
 def viewYear(request,faculty_id, module_id):

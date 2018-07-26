@@ -64,6 +64,17 @@
                         </strong>
                     </form>
                     </td>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+                        <script>
+                        $('#event').submit(function(e){
+                        e.preventDefault();
+                        url = $(this).attr('action') # to get url
+                        data = $(this).serialize(); # for sending form data
+                        $.post(url, data, function(response){
+                              #do whatever you want with response(data)
+                        })
+                        })
+                    </script>
                     <td>
                         <strong>
 
