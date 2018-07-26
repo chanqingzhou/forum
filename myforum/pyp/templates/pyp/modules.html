@@ -47,7 +47,7 @@
 					</strong>
 				</td>
 				<td>
-					<a href={% url 'pyp:viewYear' faculty.id module.id %}> Answers</a>
+					<a href={% url 'pyp:viewYear' faculty.id module.module_code %}> Answers</a>
 				</td>
 			</tr>
 		  {% endfor %}
@@ -64,14 +64,7 @@
 	<div class="grid">
 				<div class="shadowundertop">
 		</div>
-		Module not found?
-		<br>
-		Add your own module
-		<form action="{% url 'pyp:submitModule' faculty.id %}" method="post">{% csrf_token %}
-			Module Code: <input type="text" name="modulecode">
-			Module Name: <input type="text" name="modulename">
-			<input type="submit" name="SUBMIT">
-		</form>
+
 	</div>
 {% endblock %}
 

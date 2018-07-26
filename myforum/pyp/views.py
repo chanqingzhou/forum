@@ -24,13 +24,8 @@ def modules(request,faculty_id):
     faculty = get_object_or_404(Faculty, pk=faculty_id)
     return render(request,'pyp/modules.html', {'faculty':faculty})
 
-def submitModule(request, faculty_id):
-    faculty= get_object_or_404(Faculty, pk=faculty_id)
-    module=faculty.module_set.create(module_text=request.POST['modulename'],module_code=request.POST['modulecode'])
-    return HttpResponseRedirect(reverse('pyp:modules',args=(faculty_id,)))
-
-def viewYear(request,faculty_id, module_id):
-    module = get_object_or_404(Module,pk=module_id)
+def viewYear(request,faculty_id, module_code):
+    module = get_object_or_404(Module,module_code=module_code)
     faculty = get_object_or_404(Faculty, pk=faculty_id)
     if not module.faculty.id == faculty_id:
         raise Http404("WTF are u doing")
@@ -38,9 +33,9 @@ def viewYear(request,faculty_id, module_id):
 
 
 
-def viewAnswer(request,faculty_id,module_id,year_id):
+def viewAnswer(request,faculty_id,module_code,year_id):
     faculty=get_object_or_404(Faculty,pk=faculty_id)
-    module= get_object_or_404(Module,pk=module_id)
+    module= get_object_or_404(Module,module_code=module_code)
     year= get_object_or_404(ModuleYear,pk=year_id)
 
     if request.method == 'POST':
