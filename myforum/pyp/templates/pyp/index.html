@@ -100,7 +100,15 @@
 		<div class="c12">
 			<div class="royalcontent">
 				<h1 class="royalheader">NUS C.A.P 5.0</h1>
-				<h1 class="title" style="text-transform:none;">Click on any of the faculties to start discussing now!</h1>
+				<h1 class="title" style="text-transform:none;">Search for your module </h1>
+				{% if error_message %}
+					{{error_message}}
+				{% endif %}
+				<form method ="post" onsubmit ="{% url 'pyp:index' %}">{% csrf_token %}
+					<input type="text" name="code">
+					<input type ="submit">
+				</form>
+				<h1 class="title" style="text-transform:none;">OR click on any of the faculties to start discussing now!</h1>
 			</div>
 		</div>
 		<!--Faculty of Engineering-->
@@ -109,12 +117,12 @@
 			<div class="noshadowbox">
 				<ul style="padding:20%">
 					<!-- TODO: add the engineering html -->
-					<li><a href="{% url 'pyp:modules' 1 %}">Electrical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 2 %}" >Civil and Environment Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 3 %}" >Mechanical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 4 %}" >Biomedical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 5 %}" >Chemical Engineering</a></li>
-					<li><a href="{% url 'pyp:modules' 6 %}" >Materials Science Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 'EEE'%}">Electrical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 'CEE' %}" >Civil and Environment Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 'ME' %}" >Mechanical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 'BME' %}" >Biomedical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 'CE' %}" >Chemical Engineering</a></li>
+					<li><a href="{% url 'pyp:modules' 'MSE' %}" >Materials Science Engineering</a></li>
 				</ul>
 				<p class="bottomlink">
 					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
@@ -127,13 +135,13 @@
 			<div class="noshadowbox">
 				<ul style="padding:16%">
 					<!-- TODO: Add the sciences html -->
-					<li><a href="{% url 'pyp:modules' 7 %}" >Mathematics and Applied Mathematics</a></li>
-					<li><a href="{% url 'pyp:modules' 8 %}" >Statistics and Applied Statistics</a></li>
-					<li><a href="{% url 'pyp:modules' 9 %}" >Chemistry</a></li>
-					<li><a href="{% url 'pyp:modules' 10 %}" >Physics</a></li>
-					<li><a href="{% url 'pyp:modules' 11 %}" >Life Sciences</a></li>
-					<li><a href="{% url 'pyp:modules' 12 %}" >Pharmacy</a></li>
-					<li><a href="{% url 'pyp:modules' 13 %}" >Computational Biology</a></li>
+					<li><a href="{% url 'pyp:modules' 'MA'%}" >Mathematics and Applied Mathematics</a></li>
+					<li><a href="{% url 'pyp:modules' 'ST' %}" >Statistics and Applied Statistics</a></li>
+					<li><a href="{% url 'pyp:modules' 'CM' %}" >Chemistry</a></li>
+					<li><a href="{% url 'pyp:modules' 'PY' %}" >Physics</a></li>
+					<li><a href="{% url 'pyp:modules' 'LS' %}" >Life Sciences</a></li>
+					<li><a href="{% url 'pyp:modules' 'PH' %}" >Pharmacy</a></li>
+					<li><a href="{% url 'pyp:modules' 'CB' %}" >Computational Biology</a></li>
 				</ul>
 				<p class="bottomlink">
 					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
@@ -146,17 +154,18 @@
 			<div class="noshadowbox">
 				<ul style="padding:3%">
 					<!-- TODO: Add the FASS html -->
-					<li><a href="{% url 'pyp:modules' 14 %}" >Psychology</a></li>
-					<li><a href="{% url 'pyp:modules' 15 %}" >Geography</a></li>
-					<li><a href="{% url 'pyp:modules' 16 %}" >History</a></li>
-					<li><a href="{% url 'pyp:modules' 17 %}" >Japanese Studies</a></li>
-					<li><a href="{% url 'pyp:modules' 18 %}" >Chinese Studies</a></li>
-					<li><a href="{% url 'pyp:modules' 19 %}" >Sociology</a></li>
-					<li><a href="{% url 'pyp:modules' 20 %}" >Philosophy</a></li>
-					<li><a href="{% url 'pyp:modules' 21 %}" >Global Studies</a></li>
-					<li><a href="{% url 'pyp:modules' 22 %}" >Social Work</a></li>
-					<li><a href="{% url 'pyp:modules' 23 %}" >Political Science</a></li>
-					<li><a href="{% url 'pyp:modules' 24 %}" >Communicatons and New Media</a></li>
+					<li><a href="{% url 'pyp:modules' 'PSH' %}" >Psychology</a></li>
+					<li><a href="{% url 'pyp:modules' 'EC' %}" >ECONOMICS</a></li
+					<li><a href="{% url 'pyp:modules' 'GG' %}" >Geography</a></li>
+					<li><a href="{% url 'pyp:modules' 'HT' %}" >History</a></li>
+					<li><a href="{% url 'pyp:modules' 'JS' %}" >Japanese Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 'CS' %}" >Chinese Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 'SC' %}" >Sociology</a></li>
+					<li><a href="{% url 'pyp:modules' 'PO' %}" >Philosophy</a></li>
+					<li><a href="{% url 'pyp:modules' 'GS' %}" >Global Studies</a></li>
+					<li><a href="{% url 'pyp:modules' 'SW' %}" >Social Work</a></li>
+					<li><a href="{% url 'pyp:modules' 'PS' %}" >Political Science</a></li>
+					<li><a href="{% url 'pyp:modules' 'CNM' %}" >Communicatons and New Media</a></li>
 
 				</ul>
 
@@ -174,7 +183,7 @@
 			<div class="noshadowbox">
 				<ul style="padding:20%">
 					<li></li>
-					<li><a href="{% url 'pyp:modules' 25 %}" >School of Business</a></li>
+					<li><a href="{% url 'pyp:modules' 'SOB' %}" >School of Business</a></li>
 
 				</ul>
 				<p class="bottomlink">
@@ -187,7 +196,7 @@
 		<h2 class="title hometitlebg"><img src="{% static '/pyp/images/computing.png' %}" alt="computing" style="padding-top:15px"><i class="smallrightmargin"></i></i>Faculty of Computing</h2>
 			<div class="noshadowbox">
 				<ul style="padding:20%">
-					<li><a href="{% url 'pyp:modules' 26 %}" >School Of Computing</a></li>
+					<li><a href="{% url 'pyp:modules' 'SOC' %}" >School Of Computing</a></li>
 
 				</ul>
 				<p class="bottomlink">
@@ -204,7 +213,7 @@
 					<li></li>
 					<li></li>
 
-					<li><a href="{% url 'pyp:modules' 27 %}" >School of Law</a></li>
+					<li><a href="{% url 'pyp:modules' 'SOL'%}" >School of Law</a></li>
 					<li></li><li></li><li></li><li></li>
 				</ul>
 

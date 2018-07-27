@@ -41,11 +41,11 @@
                 <tr>
                     <td>
                         <strong>
-                            <a href="{% url 'pyp:downloadAnswer' faculty.id module.id year.id answerf.id %}">{{answerf.title}}</a>
+                            <a href="{% url 'pyp:downloadAnswer' faculty.faculty_code module.id year.id answerf.id %}">{{answerf.title}}</a>
                             {% if user.is_authenticated%}
                                 {% if user == answer.author %}
                                   {{answer.user_set.all}}
-                                    <form action="{% url 'pyp:viewAnswer' faculty.id module.module_code year.id %}" method="post">
+                                    <form action="{% url 'pyp:viewAnswer' faculty.faculty_code module.module_code year.id %}" method="post">
                                         {%csrf_token %}
                                         <button about="submit"  name="delete" value="{{answer.id}}"> delete </button>
                                     </form>
@@ -61,7 +61,7 @@
                     </td>
                     <td>
                         <strong>
-                            <form action = "{% url 'pyp:viewAnswer'  faculty.id module.module_code year.id %}" method="post">{% csrf_token %}
+                            <form action = "{% url 'pyp:viewAnswer'  faculty.faculty_code module.module_code year.id %}" method="post">{% csrf_token %}
                                 upvote:{{answer.upvote}}<br>
                             <button about="submit"  name="upvote" value="{{answer.id}}"> upvote </button>
                         </strong>
@@ -78,7 +78,7 @@
                     <td>
                         <strong>
 
-                        <a href=" {% url 'pyp:viewComment' faculty.id module.module_code year.id answer.id %}"> View Comments</a>
+                        <a href=" {% url 'pyp:viewComment' faculty.faculty_code module.module_code year.id answer.id %}"> View Comments</a>
                         </strong>
                     </td>
                 </tr>
@@ -98,7 +98,7 @@
 </div>
 <p><br><br>
     {%if user.is_authenticated %}
-        <form action="{% url 'pyp:viewAnswer'  faculty.id module.module_code year.id %}"  method="post" enctype="multipart/form-data">
+        <form action="{% url 'pyp:viewAnswer'  faculty.faculty_code module.module_code year.id %}"  method="post" enctype="multipart/form-data">
             {% csrf_token %}
         <strong><bold>Upload a new answer</bold></strong>
         <br>
@@ -114,6 +114,6 @@
 
 {% block reverse %}
 
-<strong> <a href="{% url 'pyp:viewYear' faculty.id module.module_code  %}">GO BACK</a></strong>
+<strong> <a href="{% url 'pyp:viewYear' faculty.faculty_code module.module_code  %}">GO BACK</a></strong>
 
 {% endblock %}
