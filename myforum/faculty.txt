@@ -1,27 +1,28 @@
-Electrical Engineering
-Civil and Environment Engineering
-Mechanical Engineering
-Biomedical Engineering
-Chemical Engineering
-Materials Science Engineering
-Mathematics and Applied Mathematics
-Statistics and Applied Statistics
-Chemistry
-Physics
-Life Sciences
-Pharmacy
-Computational Biology
-Psychology
-Geography
-History
-Japanese Studies
-Chinese Studies
-Sociology
-Philosophy
-Global Studies
-Social Work
-Political Science
-Communicatons and New Media
-School of Business
-School Of Computing
-School of Law
+EEE Electrical Engineering
+CEE Civil and Environment Engineering
+ME Mechanical Engineering
+BME Biomedical Engineering
+CE Chemical Engineering
+MSE Materials Science Engineering
+MA Mathematics and Applied Mathematics
+ST Statistics and Applied Statistics
+EC Economics
+CM Chemistry
+PY Physics
+LS Life Sciences
+PH Pharmacy
+CB Computational Biology
+PSH Psychology
+GG Geography
+HT History
+JS Japanese Studies
+CS Chinese Studies
+SC Sociology
+PO Philosophy
+GS Global Studies
+SW Social Work
+PS Political Science
+CNM Communicatons and New Media
+SOB School of Business
+SOC School Of Computing
+SOL School of Law

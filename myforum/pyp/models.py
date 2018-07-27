@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 class Faculty(models.Model):
     faculty_text=models.CharField(max_length=40)
+    faculty_code=models.CharField(max_length=10)
     def __str__(self):
         return self.faculty_text
 
