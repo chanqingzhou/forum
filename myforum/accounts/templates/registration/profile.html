@@ -8,18 +8,22 @@
 <!-- STYLES & JQUERY
 ================================================== -->
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/login.css'%}"/>
-<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
-<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
-<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
-
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static '/css/responsive.css' %}"/>
+<script src="{% static 'accounts/js/jquery-1.9.0.min.js' %}"></script><!-- the rest of the scripts at the bottom of the document -->
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'accounts/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'accounts/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'accounts/images/favicon-16x16.png' %}">
+<link rel="manifest" href="{% static 'accounts/images/manifest.json' %}">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{% static 'accounts/images/ms-icon-144x144.png' %}">
+<meta name="theme-color" content="#ffffff">
 {% block content %}
 
 <div class="container">
+        <button about="submit"  name="delete" value="{{answer.id}}"> Edit Profile</button>
     <h1>Profile</h1>
     <p>Username: {{ user }} </p>
     <p>First Name: {{ user.first_name }} </p>

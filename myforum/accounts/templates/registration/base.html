@@ -5,19 +5,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-</head>
+
 <!-- STYLES & JQUERY
 ================================================== -->
-		{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
-
-<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
-<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
-<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
-<body>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/responsive.css' %}"/>
+<script src="{% static 'accounts/js/jquery-1.9.0.min.js' %}"></script><!-- the rest of the scripts at the bottom of the document -->
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'accounts/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'accounts/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'accounts/images/favicon-16x16.png' %}">
+<link rel="manifest" href="{% static 'accounts/images/manifest.json' %}">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{% static 'accounts/images/ms-icon-144x144.png' %}">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>	
 	<!-- TOP LOGO & MENU
 	================================================== -->
 	<div class="grid">
@@ -25,7 +30,7 @@
 		<!--Logo-->
 		<div class="c4">
 			<a href="{% url 'pyp:index' %}">
-				<img src="{% static 'pyp/images/logo.png' %}" class="logo" alt="">
+				<img src="{% static 'accounts/images/logo.png' %}" class="logo" alt="">
 			</a>
 		</div>
 		<!--Menu-->
@@ -35,7 +40,7 @@
 				<li class="active"><a href="{% url 'pyp:index' %}"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
 				<li><a href="#">About</a>
 					<ul style="display: none;">
-						<li><a href="timeline.html">Timeline</a></li>
+						<li><a href="/accounts/timeline">Timeline</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Account</a>
@@ -64,7 +69,26 @@
 	{% endblock %}
 <!-- JAVASCRIPTS
 ================================================== -->
+{% block js %}
+<script src="{% static 'accounts/js/modernizr-latest.js' %}"></script>
+
+<!-- menu & scroll to top -->
+<script src="{% static 'accounts/js/common.js' %}"></script>
+
+<!-- slider -->
+<script src="{% static 'accounts/js/jquery.cslider.js' %}"></script>
+
+<!-- cycle -->
+<script src="{% static 'accounts/js/jquery.cycle.js' %}"></script>
+
+<!-- carousel items -->
+<script src="{% static 'accounts/js/jquery.carouFredSel-6.0.3-packed.js' %}"></script>
+
+<!-- twitter -->
+<script src="{% static 'accounts/js/jquery.tweet.js' %}"></script>
+
 <!-- register -->
-<script src="{% static 'pyp/js/register.js' %}"></script>
+<script src="{% static 'accounts/js/register.js' %}"></script>
 </body>
+{% endblock %}
 </html>
