@@ -20,7 +20,7 @@ class ModuleYear(models.Model):
 
 class Answer(models.Model):
     year = models.ForeignKey(ModuleYear, on_delete=models.CASCADE)
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    author = models.ForeignKey(User, on_delete=models.PROTECT)
     answer_text = models.CharField(max_length=1000)
     upvote = models.IntegerField(default=0)
     downvote = models.IntegerField(default=0)

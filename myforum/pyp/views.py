@@ -47,6 +47,9 @@ def viewAnswer(request,faculty_id,module_code,year_id):
             answer = get_object_or_404(Answer, pk=request.POST['downvote'])
             answer.downvote += 1
             answer.save()
+        elif 'delete' in request.POST:
+            answer=get_object_or_404(Answer,pk=request.POST['delete'])
+            answer.delete()
         else :
             answer=Answer(answer_text="test",author=request.user)
             year.answer_set.add(answer,bulk=False)
@@ -68,9 +71,9 @@ def downloadAnswer(request,faculty_id,module_id,year_id, answerf_id):
 
     return response
 
-def viewComment(request,faculty_id,module_id,year_id,answer_id):
+def viewComment(request,faculty_id,module_code,year_id,answer_id):
     faculty=get_object_or_404(Faculty,pk=faculty_id)
-    module= get_object_or_404(Module,pk=module_id)
+    module= get_object_or_404(Module,module_code=module_code)
     year= get_object_or_404(ModuleYear,pk=year_id)
     answer=get_object_or_404(Answer,pk=answer_id)
     if request.method =='POST':
