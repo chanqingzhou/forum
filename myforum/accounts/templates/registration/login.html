@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+{% extends 'registration/base.html' %}
+{% block content %}
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,39 +9,19 @@
 </head>
 <!-- STYLES & JQUERY
 ================================================== -->
-		{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/login.css' %}"/>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/responsive.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/login.css' %}"/>
 
-<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
-<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
-<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'accounts/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'accounts/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'accounts/images/favicon-16x16.png' %}">
 <body>
-	<!-- TOP LOGO & MENU
-	================================================== -->
-	<div class="grid">
-		<div class="row space-bot">
-			<!--Logo-->
-			<div class="c4">
-				<a href="{% url 'pyp:index' %}">
-				<img src="{%static 'pyp/images/logo.png' %}" class="logo" alt="">
-				</a>
-			</div>
-			<!--Menu-->
-			<div class="c8">
-				<nav id="topNav">
-				<ul id="responsivemenu">
-					<li class="active"><a href="{% url 'pyp:index' %}"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
-				</nav>
-			</div>
-		</div>
-	</div>
-	<!-- CONTENT
-	================================================== -->
-	<div class="login-card">
+
+<div class="login-card">
 {% if form.errors %}
 <p>Your username and password didn't match. Please try again.</p>
 {% endif %}
@@ -71,9 +52,10 @@
       <input type="hidden" name="next" value="{{ next }}" />
     </div>
     </form>
+	
+	{# Assumes you setup the password_reset view in your URLconf #}
 
-    {# Assumes you setup the password_reset view in your URLconf #}
-		<div class="login-help>
+	<div class="login-help">
     <p><a href="{% url 'password_reset' %}">Lost password?</a></p>
 		<p> <a href="{% url 'accounts:signup' %}"> Sign up Now</a></p>
 	</div>
@@ -88,3 +70,5 @@
 <script src="js/register.js"></script>
 </body>
 </html>
+{% endblock %}
+
