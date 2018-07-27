@@ -1,2 +1,2027 @@
-ACC1002
-ACC1002X
+ACC1002 Financial Accounting
+ACC1002X Financial Accounting
+ACC1006 Accounting Information Systems
+ACC1701 Accounting for Decision Makers
+ACC1701X Accounting for Decision Makers
+ACC2002 Managerial Accounting
+ACC2706 Managerial Accounting
+ACC2707 Corporate Accounting & Reporting I
+ACC2708 Corporate Accounting & Reporting II
+ACC2709 Accounting Information Systems
+ACC3603 Assurance and Attestation
+ACC3604 Corporate and Securities Law
+ACC3605 Taxation
+ACC3606 Advanced Corporate Accounting and Reporting
+ACC3614 Valuation
+ACC3616 Corporate Governance and Risk Management
+ACC3619 Integrated Perspective in Accounting and Business
+ACC3701 Assurance and Attestation
+ACC3703 Taxation
+ACC4611 Advanced Taxation
+ACC4615 Advanced Assurance and Attestation
+ACC4619 Advanced Independent Study in Accounting
+ACC4629 Advanced Independent Study in Accounting
+AH2101 Introduction to Art History
+AH2201 Chinese Painting: Styles and Masters
+AH2202 Modern Art: A Critical Introduction
+AH3203 Collecting Art in Europe and Asia (1500 CE � 2000 CE)
+AH3204 Methods and Approaches to Art History
+ALS1010 Learning to Learn Better
+ALS1020 Learning to Choose Better
+AR1101 Design I
+AR1327 Structural Principles
+AR2101 Design 3
+AR2221 History and Theory of Southeast Asia Architecture
+AR2224 Ideas and Approaches in Design
+AR2225 Reading Visual Images
+AR2327 Architectural Tectonics
+AR3101 Design 5
+AR3101A Design 5 (Landscape Architecture Emphasis)
+AR3151 Design - ISM
+AR3223 Introduction to Urbanism
+AR3421 Introduction to Architectural Practice
+AR3721 Environmental Systems and Construction
+AR4001 Advanced Architectural Study 1
+AR4103 Architectural & Technology Design 1
+AR4421 Architecture Internship Programme
+AR5312 Typo-Morphology In Architecture
+AR5321 Advanced Architectural Integration
+AR5423 Architectural Practice
+AR5601 Urban Design Theory and Praxis
+AR5801 Options Design Research Studio 1
+AR5802 Options Design Research Studio 2
+AR5951B Topics in History & Theory of Architecture 2
+AR5951D Topics in History & Theory of Architecture 4
+AR5951L Topics in History and Theory of Architecture
+AR5952A Topics in Urban Studies 1
+AR5952B Topics in Urban Studies 2
+AR5952C Special Topics in Urban Studies 3
+AR5952E Topics in Urban Studies 5
+AR5953 Topics in Design Technology 1
+AR5953A Topics in Design Technology 1
+AR5953B Topics in Design Technology 2
+AR5953C Topics in Design Technology 3
+AR5953D Topics in Design Technology 4
+AR5954 Topics in Landscape Architecture
+AR5954A Topics in Landscape Architecture 1
+BI3001A Business Internship I
+BI3001B Business Internship I
+BI3001C Business Internship I
+BI3001D Business Internship I
+BI3001E Business Internship I
+BI3001F Business Internship I
+BI3001G Business Internship I
+BI3002A Business Internship II
+BI3002B Business Internship II
+BI3002C Business Internship II
+BI3002D Business Internship II
+BI3003A Work Experience Internship
+BI3003B Work Experience Internship
+BI3003C Work Experience Internship
+BI3003D Work Experience Internship
+BLD3002 CEOs as Leaders
+BLD3003 Personal Leadership Development
+BLD3004 Topics in Leadership Development
+BN1101 Engineering Principles and Practice I
+BN2001 Independent Study
+BN2201 Quantitative Physiology for Bioengineers
+BN2202 Introduction to Biotransport
+BN2403 Fundamentals of Biosignals and Bioinstrumentation
+BN3101 Biomedical Engineering Design
+BN3202 Musculoskeletal Biomechanics
+BN3402 Bio-Analytical Methods In Bioengineering
+BN4101 B.Eng. Dissertation
+BN4101R B.Eng. Dissertation
+BN4202 Biofluids Dynamics
+BN4301 Principles Of Tissue Engineering
+BN4406 Biophotonics And Bioimaging
+BN4501 Engineering Biology
+BPM1701 Calculus and Statistics
+BPM1702 Microsoft Excel Skills for Business
+BPM1705 Understanding How Business Works
+BSN3702 New Venture Creation
+BSP1004 Legal Environment Of Business
+BSP1004X Legal Environment Of Business
+BSP1005 Managerial Economics
+BSP1702 Legal Environment of Business
+BSP1702X Legal Environment of Business
+BSP1703 Managerial Economics
+BSP2001 Macro And International Economics
+BSP2005 Asian Business Environments
+BSP2701 Global Economy
+BSP3001 Strategic Management
+BSP3513 Family Business
+BSP4513 Econometrics: Theory and Practical Business Applications
+BT1101 Introduction to Business Analytics
+BT2101 Decision Making Methods and Tools
+BT2102 Data Management and Visualisation
+BT3101 Business Analytics Capstone Project
+BT3102 Computational Methods for Business Analytics
+BT3103 Application Systems Development for Business Analytics
+BT4012 Fraud Analytics
+BT4015 Geospatial Analytics
+BT4016 Risk Analytics for Financial Services
+BT4101 B.Sc. (Business Analytics) Dissertation
+BT4212 Search Engine Optimization and Analytics
+BT4221 Big Data Techniques and Technologies
+BT4240 Machine Learning for Predictive Data Analytics
+CE1101 Civil Engineering Principles and Practice
+CE2112 Soil Mechanics
+CE2134 Hydraulics
+CE2183 Construction Project Management
+CE2407 Engineering & Uncertainty Analyses
+CE2409 Computer Applications in Civil Engineering
+CE3101 Integrated Infrastructure Project
+CE3116 Foundation Engineering
+CE3121 Transportation Engineering
+CE3165 Structural Concrete Design
+CE3166 Structural Steel Design and System
+CE4103 Design Project
+CE4104 B. Eng. Dissertation
+CE4257 Linear Finite Element Analysis
+CE5101 Seepage & Consolidation of Soils
+CE5104 Underground Space
+CE5108 Earth Retaining Structures
+CE5113 Geotechnical Investigation & Monitoring
+CE5203 Traffic Flow & Control
+CE5205 Transportation Planning
+CE5310 HYDROINFORMATICS
+CE5312 River Mechanics
+CE5509 Advanced Structural Steel Design
+CE5510 Advanced Structural Concrete Design
+CE5610 Assessment and Retrofit of Concrete Structures
+CE5806 Construction Project and Site Control
+CFG1002 Career Catalyst
+CG1111 Engineering Principles and Practice I
+CG2027 Transistor-level Digital Circuits
+CG2028 Computer Organization
+CG2271 Real-Time Operating Systems
+CG3002 Embedded Systems Design Project
+CG3207 Computer Architecture
+CG4001 B. Eng. Dissertation
+CH1101E Retelling Chinese Stories: Change and Continuity
+CH2121 / CL2121 History of Chinese Literature
+CH2221 Modern Chinese Literature
+CH2243 Chinese in Southeast Asia
+CH2275 Chinese Pop Music in East Asia
+CH3221 / CL3221 Selected Readings in Chinese Verse
+CH3225 Chinese Literature in S'pore & M'sia II
+CH3273 Modern and Contemporary Chinese Popular Literature
+CH3295 Understanding China: Past and Present (in English)
+CH3297 Chinese Business Enterprises and Management (in English)
+CH4204 Selected Topics in Chinese Linguistics
+CH4223 Chinese Literary Criticism
+CH4247 Print Culture in Modern China
+CH4401 Honours Thesis
+CH4660 Independent Study
+CH4882A Personalities in Modern Chinese History
+CH5210R Chinese Lexical Semantics
+CH5211R Seminar In Chinese Pragmatics
+CH5212R THEORIES IN PHONOLOGY (TAUGHT IN ENGLISH)
+CH5213R Cognitive Linguistics & Chinese Language
+CL1101E Chinese Language: Its Past and Present
+CL2101 The Chinese Script : History and Issues
+CL2104 Reading/Writing Chinese
+CL2280 Basic Translation
+CL2281 Translation and Interpretation
+CL3204 Classical Chinese
+CL3211 The Standardization of the Chinese Language
+CLC2101 Engaging and Building Communities
+CLC2201 Community Development Practicum
+CM1111 Inorganic Chemistry 1
+CM1131 Physical Chemistry 1
+CM1417 Fundamentals of Chemistry
+CM1501 Organic Chemistry for Engineers
+CM2111 Inorganic Chemistry 2
+CM2121 Organic Chemistry 2
+CM2191 Experiments in Chemistry 2
+CM2288 Basic UROPS in Chemistry I
+CM2289 Basic UROPS In Chemistry II
+CM3212 Transition Metal Chemistry
+CM3221 Organic Synthesis: The Disconnection Approach
+CM3231 Quantum Chem & Molecular Thermodynamics
+CM3242 Instrumental Analysis II
+CM3252 Polymer Chemistry 1
+CM3261 Environmental Chemistry
+CM3288 Advanced UROPS in Chemistry I
+CM3289 Advanced UROPS in Chemistry II
+CM3291 Advanced Experiments In Organic & Inorganic Chemistry
+CM3292 Advanced Experiments In Analytical & Physical Chemistry
+CM3302 Overseas Exploratory Project (Europe)
+CM3311 Undergraduate Professional Internship Programme
+CM3312 Enhanced Undergraduate Professional Internship Programme
+CM4199A Honours Project in Chemistry
+CM4211 Advanced Coordination Chemistry
+CM4225 Organic Spectroscopy
+CM4227 Chemical Biology
+CM4242 Advanced Analytical Techniques
+CM4251 Characterization Techniques in Materials Chemistry
+CM4254 Chemistry of Semiconductors
+CM4269 Sustainable & Green Chemistry
+CM4274 The Art and Methodology in Total Synthesis
+CM4299 Applied Project in Chemistry
+CM5211 Contemporary Organometallic Chemistry
+CM5221 ADVANCED ORGANIC SYNTHESIS
+CM5224 Emerging Concepts in Drug Discovery
+CM5237 Advanced Optical Spectroscopy and Imaging
+CM5241 Modern Analytical Techniques
+CM5268 Advanced Organic Materials
+CN1101 Chemical Engineering Principles and Practice I
+CN2101 Material and Energy Balances
+CN2108 Chemical Engineering Process Laboratory I
+CN2116 Chemical Kinetics & Reactor Design
+CN2121 Chemical Engineering Thermodynamics
+CN2121E Chemical Engineering Thermodynamics
+CN2122 Fluid Mechanics
+CN2122E Fluid Mechanics
+CN2125 Heat & Mass Transfer
+CN3108 Chemical Engineering Process Laboratory II
+CN3109 Chemical Engineering Process Laboratory III
+CN3121 Process Dynamics & Control
+CN3121E Process Dynamics & Control
+CN3132 Separation Processes
+CN3132E Separation Processes
+CN3135 Process Safety, Health and Environment
+CN3421 Process Modeling And Numerical Simulation
+CN3421E Process Modeling & Numerical Simulation
+CN4118 B.Eng. Dissertation
+CN4118E B.Tech. Dissertation
+CN4118R B.Eng. Dissertation
+CN4119E B.Tech. Dissertation
+CN4122 Process Synthesis and Simulation
+CN4122E Process Synthesis and Simulation
+CN4201R Petroleum Refining
+CN4203R Polymer Engineering
+CN4205R Pinch Analysis and Process Integration
+CN4208E Biochemical Engineering
+CN4210E Membrane Science And Engineering
+CN4215E Food Technology And Engineering
+CN4215R Food Technology and Engineering
+CN4216R Electronic Materials Science
+CN4218 Particle Technology Fundamentals and Applications
+CN4221R Control of Industrial Processes
+CN4238R Chemical & Biochemical Process Modeling
+CN4240R Unit Operations and Processes for Effluent Treatment
+CN4246E Chemical And Bio-Catalysis
+CN4246R Chemical and Bio Catalysis
+CN5173 DOWNSTREAM PROCESSING OF BIOCHEMICAL & PHARMACEUTICAL PRODUCTS
+CN5191 Project Engineering
+COS2000 Computational Thinking for Scientists
+CP2106 Independent Software Development Project (Orbital)
+CP2201 Journey of the Innovator
+CP3106 Independent Project
+CP3201 Industry Seminar
+CP3208 Undergraduate Research in Computing I
+CP3209 Undergraduate Research in Computing II
+CP3880 Advanced Technology Attachment Programme
+CP4101 B.Comp. Dissertation
+CS1010 Programming Methodology
+CS1010E Programming Methodology
+CS1010J Programming Methodology
+CS1010S Programming Methodology
+CS1020 Data Structures and Algorithms I
+CS1020E Data Structures and Algorithms I
+CS1101S Programming Methodology
+CS1231 Discrete Structures
+CS2010 Data Structures and Algorithms II
+CS2030 Programming Methodology II
+CS2040 Data Structures and Algorithms
+CS2040C Data Structures and Algorithms
+CS2100 Computer Organisation
+CS2101 Effective Communication for Computing Professionals
+CS2102 Database Systems
+CS2102R Database Systems
+CS2103 Software Engineering
+CS2103R Software Engineering
+CS2103T Software Engineering
+CS2104 Programming Language Concepts
+CS2104R Programming Language Concepts
+CS2105 Introduction to Computer Networks
+CS2105R Introduction to Computer Networks
+CS2106 Introduction to Operating Systems
+CS2106R Introduction to Operating Systems
+CS2107 Introduction to Information Security
+CS2113 Software Engineering & Object-Oriented Programming
+CS2113T Software Engineering & Object-Oriented Programming
+CS2220 Introduction to Computational Biology
+CS2309 CS Research Methodology
+CS3103 Computer Networks Practice
+CS3203 Software Engineering Project
+CS3210 Parallel Computing
+CS3216 Software Product Engineering for Digital Markets
+CS3219 Software Engineering Principles and Patterns
+CS3230 Design and Analysis of Algorithms
+CS3230R Design and Analysis of Algorithms
+CS3235 Computer Security
+CS3240 Interaction Design
+CS3241 Computer Graphics
+CS3244 Machine Learning
+CS4211 Formal Methods for Software Engineering
+CS4212 Compiler Design
+CS4223 Multi-core Architectures
+CS4224 Distributed Databases
+CS4226 Internet Architecture
+CS4232 Theory of Computation
+CS4234 Optimisation Algorithms
+CS4236 Cryptography Theory and Practice
+CS4238 Computer Security Practice
+CS4239 Software Security
+CS4243 Computer Vision and Pattern Recognition
+CS4246 AI Planning and Decision Making
+CS4248 Natural Language Processing
+CS4249 Phenomena and Theories of Human-Computer Interaction
+CS4261 Algorithmic Mechanism Design
+CS4350 Game Development Project
+CS4351 Real-Time Graphics
+CS5219 Automated Software Validation
+CS5223 Distributed Systems
+CS5228 Knowledge Discovery and Data Mining
+CS5229 Advanced Computer Networks
+CS5231 Systems Security
+CS5234 Combinatorial and Graph Algorithms
+CS5236 Advanced Automata Theory
+CS5238 Advanced Combinatorial Methods in Bioinformatics
+CS5239 Computer System Performance Analysis
+CS5240 Theoretical Foundations in MultiMedia
+CS5242 Neural Networks and Deep Learning
+CS5322 Database Security
+CS5331 Web Security
+CS5340 Uncertainty Modelling in AI
+DAO1704 Decision Analytics using Spreadsheets
+DAO1704X Decision Analytics using Spreadsheets
+DAO1704Y Decision Analytics using Spreadsheets
+DAO2702 Programming for Business Analytics
+DAO2703 Operations and Technology Management
+DE4201 Seminars in Sustainable Cities
+DEP5101 Urban Analysis Workshop
+DEP5101A Qualitative Methods for Urban Planning
+DEP5102 Urban Planning History & Theory
+DEP5104 Urban and Regional Economics
+DSA1101 Introduction to Data Science
+DSA2101 Essential Data Analytics Tools: Data Visualisation
+DSA3101 Data Science in Practice
+DSA3102 Essential Data Analytics Tools: Convex Optimisation
+DSA4211 High-Dimensional Statistical Analysis
+DSC1007 Business Analytics - Models & Decisions
+DSC1007X Business Analytics - Models & Decisions
+DSC2006 Operations Management
+DSC2008 Business Analytics - Data & Decisions
+DSC3201 Supply Chain Management
+DSC3202 Purchasing And Materials Management
+DSC3203 Service Operations Management
+DSC3214 Introduction To Optimisation
+DSC3215 Stochastic Models In Management
+DSC3216 Predictive Analytics in Business
+DSC3229 Independent Study in Ops & Supply Chain Mgt
+DSC3239 Independent Study in Ops & Supply Chain Mgt
+DSC4211G SIOSCM: Service Design
+DSC4213 Analytical Tools for Consulting
+DSC4216 Business-driven Technology
+DSC5101 Analytics in Managerial Economics
+DSC5102 Business Analytics Capstone Project
+DSC5103 STATISTICS
+DSC5211A Supply Chain Coordination and Risk Management
+EC1101E Introduction to Economic Analysis
+EC1301 Principles of Economics
+EC2101 Microeconomic Analysis I
+EC2102 Macroeconomic Analysis I
+EC2104 Quantitative Methods for Economic Analysis
+EC2204 Financial Accounting for Economists
+EC2205 Economic Analysis of Business
+EC2303 Foundations for Econometrics
+EC3101 Microeconomic Analysis II
+EC3102 Macroeconomic Analysis II
+EC3303 Econometrics I
+EC3304 Econometrics II
+EC3305 Programming Tools for Economics
+EC3314 Mathematical Economics
+EC3332 Money and Banking I
+EC3333 Financial Economics I
+EC3342 International Trade I
+EC3343 International Finance I
+EC3351 Public Finance
+EC3371 Development Economics I
+EC3373 Asean Economies
+EC3381 Urban Economics
+EC3396 Economic Analysis of Law I
+EC3551 FASS Undergraduate Research Opportunity (UROP)
+EC4301 Microeconomic Analysis III
+EC4302 Macroeconomic Analysis III
+EC4303 Econometrics III
+EC4304 Economic and Financial Forecasting
+EC4305 Applied Econometrics
+EC4306 Applied Microeconomic Analysis
+EC4307 Issues in Macroeconomics
+EC4313 Search Theory and Applications
+EC4332 Money and Banking II
+EC4333 Financial Economics II
+EC4334 Financial Market Microstructure
+EC4343 International Finance II
+EC4351 Public Economics
+EC4353 Health Economics
+EC4361 Labour Economics II
+EC4362 Immigration Economics
+EC4371 Development Economics II
+EC4372 Technology and Innovation
+EC4394 Behavioural Economics
+EC4398 Economics of Inequality
+EC4401 Honours Thesis
+EC4660 Independent Study
+EC4880 Topics in Economics
+EC4880A Topics in Economics: Economics of Careers
+EC5101R MICROECONOMIC THEORY
+EC5102R MACROECONOMIC THEORY
+EC5103R ECONOMETRIC MODELLING AND APPLICATIONS I
+EC5104R Mathematical Economics
+EC5322R Industrial Organisation
+EC5332R Money & Banking
+EE1111 Engineering Principles and Practice I
+EE2012 Analytical Methods in Electrical and Computer Engineering
+EE2023 Signals and Systems
+EE2024 Programming for Computer Interfaces
+EE2026 Digital Design
+EE2027 Electronic Circuits
+EE2028 Microcontroller Programming and Interfacing
+EE2031 Circuit and Systems Design Lab
+EE2032 Signals & Communications Design Lab
+EE3031 Innovation & Enterprise I
+EE3104C Introduction to RF and Microwave Systems & Circuits
+EE3131C Communication Systems
+EE3131E Communication Systems
+EE3207E Computer Architecture
+EE3331C Feedback Control Systems
+EE3408C Integrated Analog Design
+EE3431C Microelectronics Materials and Devices
+EE3506C Intro to Elect Energy Systems
+EE3731C Signal Processing Methods
+EE4001 B.Eng. Dissertation
+EE4031 Intellectual Property: Harnessing Innovation
+EE4101 RF Communications
+EE4101E Radio-Frequency (RF) Communications
+EE4112 Radio Frequency Design and Systems
+EE4204 Computer Networks
+EE4204E Computer Networks
+EE4211 Data Science for the Internet of Things
+EE4218 Embedded Hardware System Design
+EE4303 Industrial Control Systems
+EE4303E Industrial Control Systems
+EE4305 Introduction To Fuzzy / Neural Systems
+EE4435 Modern Transistors and Memory Devices
+EE4436 Fabrication Process Technology
+EE4436E Fabrication Process Technology
+EE4501 Power System Management And Protection
+EE4502 Electric Drives & Control
+EE4704 Introduction to Computer Vision and Image Processing
+EG1111 Engineering Principles and Practice I
+EG2301 Case Studies in Engineering
+EG2311 Introduction to Space Systems
+EG2312 Radar Theory and Techniques
+EG2401 Engineering Professionalism
+EG3301R DCP Project
+EG4301 DCP Dissertation
+EG4301A Ideas to Start-up
+EL1101E / GEK1011 The Nature of Language
+EL2102 Sound Patterns in Language
+EL2151 Social Variation in English
+EL3203 Semantics and Pragmatics
+EL3213 Language Typology
+EL3216 Language and the Internet
+EL3222 Cinematic Discourse and Language
+EL3231 Phonetics
+EL3551 FASS Undergraduate Research Opportunity (UROP)
+EL4252 Interactional Discourse
+EL4253 Language, Gender, and Text
+EL4255 English as a World Language
+EL4401 Honours Thesis
+EL4660 Independent Study
+EL4880B Exploring Second Language Writing
+EL4880D Experimental Syntax
+EL5101R Grammatical Analysis
+EL5103R Language in Society
+EL5251R APPROACHES TO DISCOURSE
+EL5253R Textual Construction of Knowledge
+EM1201 English for Academic Purposes (Music) 1
+EM1202 English for Academic Purposes (Music) 2
+EN1101E / GEK1000 An Introduction to Literary Studies
+EN2207 Gender and Sexuality in Literature
+EN2271 Introduction to Playwriting
+EN3223 Nineteenth Century Literature & Culture
+EN3224 The Twentieth Century
+EN3241 Literature and Psychoanalysis
+EN3243 S/F: Science Fiction and Fantasy
+EN3245 Feminism: Text & Theory
+EN3248 Reading the Horror Film
+EN3551 FASS Undergraduate Research Opportunity (UROP)
+EN4234 Pynchon and the Poetics of Information
+EN4242 Modern Critical Theory
+EN4251 Jonathan Swift
+EN4271 Research Workshop
+EN4401 Honours Thesis
+EN4660 Independent Study
+EN4880A Usurpation and Authority, 1558-1674
+EN5238R Twentieth-Century Literary Production
+EN5242R Women Novelists
+EN5244R SHAKESPEARE AND LITERARY THEORY
+ENV1101 Environmental Studies: An Interdisciplinary Overview
+ENV1202 Communications for Environmental Studies
+ENV2101 Global Environmental Change
+ENV2103 The Environment and Public Health
+ENV3103 Environmental Economics
+ES1000 Foundation Academic English
+ES1103 English for Academic Purposes
+ES1531 Critical Thinking And Writing
+ES1541 Exploring Science Communication through Popular Science
+ES1601 Professional and Academic Communication
+ES2002 Business Communication for Leaders (BBA)
+ES2007D Professional Communication
+ES2331 Communicating Engineering
+ES2660 Communicating in the Information Age
+ESE1001 Environmental Engineering Fundamentals
+ESE2001 Environmental Processes
+ESE3101 Solid And Hazardous Waste Management
+ESE3201 Air Quality Management
+ESE3301 Environmental Microbiological Principles
+ESE3401 Water & Wastewater Engineering 1
+ESE4403 Membrane Tech In Env Applns
+ESE4404 Bioenergy
+ESE4501 Design Project
+ESE4502R B. Eng. Dissertation B. Eng. Dissertation
+ESE5406 Membrane Treatment Process Modelling
+ESE5880A Topics in Environmental Engineering: Chem. & Lab Safety
+ESP2106 Principles of Continua
+ESP2107 Numerical Methods and Statistics
+ESP3102 From Making Nano to Probing Nano
+ESP4901 Research Project
+EU1101E Making of Modern Europe
+EU4401 Honours Thesis
+EU4660 Independent Study
+FAS1101 Writing Academically: Arts and Social Sciences
+FAS1102 Public Writing and Communication
+FAS2551 FASS Internship
+FAS2552 Extended Internship
+FDP2011 Special Mathematics Class 1, 2
+FDP2021 Special Physics Class 1, 2
+FIN2004 Finance
+FIN2004X Finance
+FIN2704 Finance
+FIN2704X Finance
+FIN3101A Corporate Finance
+FIN3101B Corporate Finance
+FIN3102A Investment Analysis and Portfolio Management
+FIN3102B Investment Analysis and Portfolio Management
+FIN3102C Investment Analysis and Portfolio Management
+FIN3103A Financial Markets
+FIN3103B Financial Markets
+FIN3113 Financial Statement Analysis
+FIN3117 Bank Management
+FIN3118 Financial Risk Management
+FIN3119 Risk and Insurance
+FIN3120B TIF: Transaction Banking
+FIN3130 Financial Modelling
+FIN3131 Fixed Income Securities
+FIN3132 Value Investing In Asia
+FIN4112G SIF: Private Equity
+FIN4112H SIF: Investment Banking
+FIN4112K SIF: Applied Portfolio Management Techniques
+FIN4112L SIF: Family Business & Wealth Management
+FIN4113 Personal Finance and Wealth Management
+FIN4113Y Personal Finance and Wealth Management
+FIN4115 Advanced Portfolio Mgt: Security Analysis & Valuation
+FIN4122 Entrepreneurial Finance
+FMA1204C FS: Saving Face
+FMA1206H FS: Travel and the Historian
+FMS1203S FS: Randomness in Scientific Thinking
+FMS1204M FS: Appreciation of Basic Results in Mathematics
+FMS1204S FS: Fraud, Deception and Data
+FMS1206P Energy Storage Devices - State of the Art
+FMS1210P Imaging our world
+FMS1214B Mysteries of Water, Protein Aggregation and Diseases
+FMS1214P Silk: Fibers that make a difference in our world
+FMS1221B Science: The Good, the Bad, the Ugly and the Beautiful
+FMS1223B The Native Seed Plants of Singapore
+FMS1225B Infectious Diseases and Host-Pathogen Interactions
+FSP4003 Field Service Project
+FST1101 Science and Technology of Foods
+FST2102B Chemistry of Food Components
+FST2288 Basic UROPS in Food Science & Technology I
+FST2289 Basic UROPS in Food Science & Technology II
+FST3101 Food Microbiology & Fermentation
+FST3103 Advanced Food Engineering
+FST3105 Food Product Development and Packaging
+FST3106 Sensory and Flavour Science
+FST3181 Professional Placement
+FST3201 Independent Study (Food Science & Tech)
+FST3202 Nutrition and Disease Prevention
+FST3288 Advanced UROPS in Food Science & Technology I
+FST3289 Advanced UROPS in Food Science & Technology II
+FST4199 Honours Project in Food Science & Tech
+FST4202 Nutritional Biochemistry
+FST4299 Applied Project in FST
+FST5199 MSc research project
+FST5205 Frontier of Food Processing and Engineering
+FST5225 Advanced Current Topics in Food Science I
+FST5227 Advanced Current Topics in Food Science III
+FST5302 Food, Nutrition and Health
+GE1101E Geographical Journeys: Exploring World Environments
+GE2206 Geographies of Life and Death
+GE2215 Introduction to GIS & Remote Sensing
+GE2218 Leisure, Recreation and Tourism
+GE2222 Politics and Space
+GE2227 Cartography and Visualisation
+GE2228 Weather and Climate
+GE2230 Energy Futures: Environment and Sustainability
+GE2231 Introduction to Social and Cultural Geographies
+GE3204 Cities and Regions: Planning for Change
+GE3219 Globalisation and the Asian Cities
+GE3231 Natural Hazards
+GE3236 Transport and Communications
+GE3237 Geographies of Migration
+GE3241 Geographies of Social Life
+GE3246 Environmental Pollution
+GE3550A GIS Internship Module
+GE3550B Geography Internship
+GE3551 FASS Undergraduate Research Opportunity (UROP)
+GE4204 Urban Space:Critical Perspectives
+GE4207 Coastal Management
+GE4212 Environmental Modelling
+GE4213 Cultural Geographies
+GE4217 Political Geographies: Space and Power
+GE4218 Interpreting Tourism Spaces and Cultures
+GE4219 Development and Environment in Southeast Asia
+GE4221 Field Investigation in Human Geography
+GE4223 Development of Geographic Thought
+GE4225 Young People and Children: Global Perspectives
+GE4230 Greater China
+GE4231 Urban and Regional Economies
+GE4401 Honours Thesis
+GE4660 Independent Study
+GE5211 Dynamic Environments
+GE5216 GEOGRAPHY AND SOCIAL THEORY
+GE5223 Introduction to Applied GIS
+GE5226 GIS Applications
+GE5227 Internet GIS
+GE5660 INDEPENDENT STUDY
+GE6222 Transnationalism and Society: Comparative Spaces
+GE6660 INDEPENDENT STUDY
+GEH1001 Globalisation and New Media
+GEH1002 Economic Issues in Dev World
+GEH1004 Chinese Heritage: Hist & Lit
+GEH1008 Nations & Nat'lisms in S Asia
+GEH1009 Framing Bollywood: Unpacking The Magic
+GEH1013 Pirates, Oceans and the Maritime World
+GEH1014 Samurai, Geisha, Yakuza as Self or Other
+GEH1015 Cultural Borrowing: Japan and China
+GEH1025 Global Environmental Issues
+GEH1030 Science of Music
+GEH1032 Modern Technology in Medicine and Health
+GEH1034 Clean Energy and Storage
+GEH1035 Phy'cal Qns from Everyday Life
+GEH1036 Living with Mathematics
+GEH1043 Microbes which Changed Human History
+GEH1047 Social and Cultural Studies through Music
+GEH1049 Public Health in Action
+GEH1051 Narrative
+GEH1053 Film Art and Human Concerns
+GEH1054 Names as Markers of Socio-cultural Identity
+GEH1060 Social History of the Piano
+GEH1061 Representation and Media
+GEH1062 Ghosts and Spirits in Society and Culture
+GEH1065 Art in Society
+GEH1069 Art in Asia: Through Media, Style, Space and Time
+GEH1070 Traditional Chinese Knowledge of Health and Well-being
+GEH1073 The Art of Chinese Poetry: Past and Present
+GEH1075 Life, Disrupted: The Sharing Revolution
+GEK1007 Chinese Heritage: History and Literature
+GEK1018 Economic Issues in the Developing World
+GEK1035 Nations & Nationalisms in South Asia
+GEK1049 Narrative
+GEK1054 Social and Cultural Studies through Music
+GEK1062 Bridging East and West: Exploring Chinese Communication
+GEK1067 Life, the Universe, and Everything
+GEK1505 Living with Mathematics
+GEK1522 Global Environmental Issues
+GEK1534 Microbes which Changed Human History
+GEK1540 Modern Technology in Medicine and Health
+GEK1549 Critical Thinking And Writing
+GEK1900 Public Health in Action
+GEK2001 / SSA2202 Changing Landscapes of Singapore
+GEK2005 Urban Planning in Singapore
+GEK2013 Real Estate Finance
+GEK2020 Film Art and Human Concerns
+GEK2022 Samurai, Geisha, Yakuza as Self or Other
+GEK2041 Science Fiction and Philosophy
+GEK2042 Cultural Borrowing: Japan and China
+GEK2044 Reading Visual Images
+GEK2048 Effective Reasoning
+GEK2049 Pirates, Oceans and the Maritime World
+GEM1029 Patrons of the Arts
+GEM1031 Names as Markers of Socio-cultural Identity
+GEM1036 Globalisation and New Media
+GEM1050 Framing Bollywood: Unpacking The Magic
+GEM1051 Ethnicity and Nation-Building: Singapore and Malaysia
+GEM1052 Understanding the Changing Global Economic Landscape
+GEM1535 Clean Energy and Storage
+GEM1536 Darwin and Evolution
+GEM2027 Public Speaking and Critical Reasoning
+GEQ1000 Asking Questions
+GEQ1917 Understanding and Critiquing Sustainability
+GER1000 Quantitative Reasoning
+GER1000E Quantitative Reasoning
+GER1000K Quantitative Reasoning
+GER1000P Quantitative Reasoning
+GER1000R Quantitative Reasoning
+GER1000S Quantitative Reasoning
+GER1000T Quantitative Reasoning
+GER1000W Quantitative Reasoning
+GES1002 Global EC Dimensions of S'pore
+GES1002T Global Economic Dimensions Of Singapore
+GES1003 Changing Landscapes of Singapore
+GES1005 Everyday Life of Chinese Singaporeans: Past & Present (taught in English)
+GES1007 South Asia in Singapore
+GES1008 Ethnicity and Nation-Building: Singapore and Malaysia
+GES1011 The Evolution of a Global City-State
+GES1012 Popular Culture in Singapore
+GES1014 Islam and Contemporary Malay Society
+GES1019 Managing Singapore's Built Environment
+GES1020 Western Music within a Singaporean Context
+GES1021 Natural Heritage of Singapore
+GES1024 Real Estate Development & Investment Law
+GES1026 Urban Planning in Singapore
+GES1028 Singapore Society
+GES1029 Singapore Film: Performance of Identity
+GES1031 Culture and Communication in Singapore
+GES1033 Who moved my OB markers?
+GES1034 We the Citizens - Understanding Singapore�s Politics
+GES1035 Singapore: Imagining the Next 50 Years
+GES1039 Cultural Performances and Practices in Singapore
+GES1041 Everyday Ethics in Singapore
+GET1002 Bridging East and West: Exploring Chinese Communication
+GET1008 Public Speaking and Critical Reasoning
+GET1013 Physics in the Life Sciences
+GET1016 Understanding the Changing Global Economic Landscape
+GET1019 Patrons of the Arts
+GET1020 Darwin and Evolution
+GET1021 Critical Thinking And Writing
+GET1023 Thinking Like An Economist
+GET1025 Science Fiction and Philosophy
+GET1026 Effective Reasoning
+GET1029 Life, the Universe, and Everything
+GET1031A Computational Thinking
+GET1032 Building Relationship : Theories and Practice
+GET1033 Exploring Computational Media Literacy
+GET1034 Communication and Critical Thinking for Community Leadership
+GET1035 Critical Perspectives in Advertising
+GET1037 Big Picture History
+GET1042 Sky and Telescopes
+GET1043 Universe, Big Bang, and Unsolved Mysteries
+GL1101E Global Issues
+GL2102 Global Political Economy
+GL2103 Global Governance
+GL3550 Global Studies Internship
+GL3551 FASS Undergraduate Research Opportunity
+GL4101 Research in Global Issues
+GL4401 Honours Thesis
+GL4660 Independent Study
+GL4882B Contested Globalisation: Resistance and Resilience
+GL4882C The Politics of Global Finance
+GL4883B Climate Justice
+GL4888A Justice and Emerging Technology
+HR2002 Human Capital in Organizations
+HY1101E Asia and the Modern World
+HY2210 State & Society in Early-Modern Europe
+HY2231 / EU2213 Upheaval in Europe: 1848-1918
+HY2249 Art and History
+HY2250 Introduction to Southeast Asian History
+HY2253 Christianity in World History
+HY2257 Law, Crime, and Punishment in History
+HY3241 Religion in the History of China & Japan
+HY3245 Engendering History/Historicising Gender
+HY3256 Brides of the Sea: Asia's Port Cities
+HY3257 The Philippines: A Social and Cultural History
+HY3258 Cold War in the Global South
+HY4210 Issues and Events in Malaysian History
+HY4212 / EU4214 Special Paper in Modern European History
+HY4214 Approaches to Chinese History
+HY4227 Sources of Singaporean History
+HY4229 Biography and History
+HY4230 Historiography and Historical Method
+HY4231 Family-State Relations in Chinese History
+HY4234 Grand Strategy in Peace and War
+HY4235 A History of the 20th Century and Beyond
+HY4401 Honours Thesis
+HY4660 Independent Study
+ID1105 Design Fundamentals 1
+ID1113 Modelling and Sketching for Design
+ID1223 History & Theory Of Industrial Design
+ID2105 Design for Context and Sustainability
+ID2111 Computer Aided Industrial Design
+ID2113 Visual Communication Design
+ID2323 Technology for Design
+ID3105 Design Platforms 2
+ID3124 Creative Communication & Design Argumentation
+ID3125 Colours, Materials & Finishing
+ID4105 Design Platforms 4
+ID4121 Project Research
+ID5021 DESIGN RESEARCH
+ID5151 DESIGN INNOVATION
+ID5351 DESIGN STUDIES
+ID5770 Graduate Seminar Module in Industrial Design
+ID5951 Topics in Industrial Design
+ID5951A Topics in Industrial Design: Product Development
+ID5951B Topics in Industrial Design: Interaction Design
+ID5951C Topics in Industrial Design: Healthcare Design
+ID5951D Topics in Industrial Design: Design Education
+ID5951E Topics in Industrial Design: Sustainability
+ID6770 Doctoral Seminar Module in Industrial Design
+IE1111 ISE Principles and Practice I
+IE1113 Introduction to Systems Analytics
+IE2010E Introduction to Industrial System
+IE2110 Operations Research I
+IE2110E Operations Research I
+IE2120E Probability and Statistics
+IE2130E Quality Engineering I
+IE3100E Systems Design Project
+IE3100M System Design Project
+IE3101 Statistics For Engineering Applications
+IE3101E Statistics for Engineering Applications
+IE3105 Fundamentals of Systems Engineering and Architecture
+IE3110 Simulation
+IE3110E Simulation
+IE3120 Manufacturing Logistics
+IE4100E BTech Dissertation
+IE4100R B.Eng.Dissertation
+IE4101E B.Tech. Dissertation
+IE4102 Independent Study Module
+IE4221 Transportation Demand Modeling and Economics
+IE4240 Project Management
+IE4240E Project Management
+IE4242 Cost Analysis And Management
+IE4243 Decision Modeling & Risk Analysis
+IE4259E Selected Topics in Systems Engineering
+IE4299E Selected Topics in Industrial Engineering
+IFS4103 Penetration Testing Practice
+IFS4205 Information Security Capstone Project.
+IGL3550 Extended Global Studies Internship
+IPS3550 EXTENDED POLITICAL SCIENCE INTERNSHIP
+IS1103 IS Innovations in Organisations and Society
+IS2101 Business and Technical Communication
+IS2102 Enterprise Systems Architecture and Design
+IS2103 Enterprise Systems Server-side Design and Development
+IS3103 Information Systems Leadership and Communication
+IS3106 Enterprise Systems Interface Design and Development
+IS3150 Digital Media Marketing
+IS3240 Digital Platform Strategy and Architecture
+IS3261 Mobile Apps Development for Enterprise
+IS4100 IT Project Management
+IS4103 Information Systems Capstone Project
+IS4204 IT Governance
+IS4228 Information Technologies in Financial Services
+IS4231 Information Security Management
+IS4234 Quality Control and Audit of IS
+IS4242 Intelligent Systems and Techniques
+IS4301 Agile IT with DevOps
+ISD5101 Integrated Studio Project 1
+ISD5103 Green Buildings in the Tropics
+ISD5104 Energy and Ecology
+IT1007 Introduction to Programming with Python and C
+JS1101E / GEK1002 Introduction to Japanese Studies
+JS2212 Introduction to Japanese Literature
+JS2225 Marketing and Consumer Culture in Japan
+JS2228 Gender and Sexuality in Japan
+JS3101 Approaches to Japanese Studies II
+JS3208 Approaches to Japanese Linguistics
+JS3223 Japan and the Asia-Pacific Region
+JS3226 Japan: The Green Nation?
+JS4101 Research and Writing in Japanese Studies
+JS4207 Readings in Modern Japanese
+JS4213 / HY4218 Approaches to Modern Japanese History
+JS4217 Selected Topics in Japanese Studies
+JS4230 Advanced Readings in Popular Culture
+JS4401 Honours Thesis
+JS4660 Independent Study
+JS5660R INDEPENDENT STUDY
+LA4203 History and Theory of Landscape Architecture
+LA4701 MLA Studio: Quarter
+LA5301 Geo Design
+LAB1201 Bahasa Indonesia 1
+LAB2201 Bahasa Indonesia 2
+LAB3201 Bahasa Indonesia 3
+LAB3202 Bahasa Indonesia 4
+LAB4201 Bahasa Indonesia 5
+LAC1201 Chinese 1
+LAC2201 Chinese 2
+LAC2202 Chinese Characters Writing & Composition
+LAC3201 Chinese 3
+LAC3202 Chinese 4
+LAC3203 Chinese for Science and Technology
+LAC4201 Chinese 5
+LAF1201 French 1
+LAF2201 French 2
+LAF3201 French 3
+LAF3202 French 4
+LAF4201 French 5
+LAG1201 German 1
+LAG2201 German 2
+LAG3201 German 3
+LAG4201 German 5
+LAH1201 Hindi 1
+LAH2201 Hindi 2
+LAH3201 Hindi 3
+LAH3202 Hindi 4
+LAH4201 Hindi 5
+LAJ1201 Japanese 1
+LAJ2201 Japanese 2
+LAJ2202 Japanese 3
+LAJ2203 Japanese 4
+LAJ3201 Japanese 5
+LAJ3202 Japanese 6
+LAJ4205 Expository Writing & Public Speaking
+LAK1201 Korean 1
+LAK2201 Korean 2
+LAK3201 Korean 3
+LAK4201 Korean 5
+LAL1201 Tamil 1
+LAL2201 Tamil 2
+LAM1201 Malay 1
+LAM2201 Malay 2
+LAM3201 Malay 3
+LAM3202 Malay 4
+LAM4201 Malay 5
+LAR1201 Arabic 1
+LAR2201 Arabic 2
+LAR3201 Arabic 3
+LAR4201 Arabic 5
+LAS1201 Spanish 1
+LAS2201 Spanish 2
+LAS3201 Spanish 3
+LAS4201 Spanish 5
+LAT1201 Thai 1
+LAT2201 Thai 2
+LAT3201 Thai 3
+LAT3202 Thai 4
+LAT4201 Thai 5
+LAV1201 Vietnamese 1
+LAV2201 Vietnamese 2
+LAV3201 Vietnamese 3
+LAV4201 Vietnamese 5
+LL4134V Crossing Borders: Law, Migration & Citizenship
+LL4197V Comparative State and Religion in Southeast Asia
+LSM1102 Molecular Genetics
+LSM1105 Evolutionary Biology
+LSM1106 Molecular Cell Biology
+LSM1301 General Biology
+LSM1306 Forensic Science
+LSM1307 Waste and Our Environment
+LSM2191 Laboratory Techniques in Life Sciences
+LSM2211 Metabolism and Regulation
+LSM2212 Human Anatomy
+LSM2231 General Physiology
+LSM2232 Genes, Genomes and Biomedical Implications
+LSM2233 Cell Biology
+LSM2241 Introductory Bioinformatics
+LSM2251 Ecology and Environment
+LSM2252 Biodiversity
+LSM2288 Basic UROPS in Life Sciences I
+LSM2289 Basic UROPS in Life Sciences II
+LSM2291 Fundamental Techniques in Microbiology
+LSM3201 Research and Communication in Life Sciences
+LSM3211 Fundamental Pharmacology
+LSM3212 Human Physiology: Cardiopulmonary System
+LSM3215 Neuronal Signaling and Memory Mechanisms
+LSM3217 Human Ageing
+LSM3223 Immunology
+LSM3231 Protein Structure and Function
+LSM3232 Microbiology
+LSM3233 Developmental Biology
+LSM3234 Biological Imaging of Growth and Form
+LSM3235 Epigenetics in Human Health and Diseases
+LSM3244 Molecular Biotechnology
+LSM3245 RNA Biology and Technology
+LSM3246 Synthetic Biology
+LSM3252 Evolution and Comparative Genomics
+LSM3254 Ecology of Aquatic Environments
+LSM3258 Comparative Botany
+LSM3265 Entomology
+LSM3266 Avian Biology and Evolution
+LSM3288 Advanced UROPS in Life Sciences I
+LSM3289 Advanced UROPS in Life Sciences II
+LSM4199 Honours Project in Life Sciences
+LSM4211 Toxicology
+LSM4213 System Neurobiology
+LSM4214 Cancer Pharmacology
+LSM4216 Molecular Nutrition and Metabolic Biology
+LSM4221 Drug Discovery and Clinical Trials
+LSM4222 Advanced Immunology
+LSM4223 Advances in Antimicrobial Strategies
+LSM4226 Infection and Immunity
+LSM4227 Stem Cell Biology
+LSM4228 Experimental Models for Human Disease and Therapy
+LSM4232 Advanced Cell Biology
+LSM4242 Protein Engineering
+LSM4243 Tumour Biology
+LSM4245 Advanced Epigenetics and Chromatin Biology
+LSM4251 Plant Growth and Development
+LSM4254 Principles of Taxonomy and Systematics
+LSM4255 Methods in Mathematical Biology
+LSM4256 Evolution of Development
+LSM4257 Aquatic Vertebrate Diversity
+LSM4267 Animal Communications & Sensory Ecology
+LSM4299 Applied Project in Life Sciences
+MA1100 Fundamental Concepts of Mathematics
+MA1101R Linear Algebra I
+MA1102R Calculus
+MA1301 Introductory Mathematics
+MA1421 Basic Applied Mathematics for Sciences
+MA1505 Mathematics I
+MA1507 Advanced Calculus
+MA1508E Linear Algebra for Engineering
+MA1511 Engineering Calculus
+MA1512 Differential Equations for Engineering
+MA1513 Linear Algebra with Differential Equations
+MA1521 Calculus for Computing
+MA2101 Linear Algebra II
+MA2104 Multivariable Calculus
+MA2108 Mathematical Analysis I
+MA2202 Algebra I
+MA2202S Algebra I (S)
+MA2213 Numerical Analysis I
+MA2214 Combinatorics and Graphs I
+MA2216 / ST2131 Probability
+MA2288 Basic UROPS in Mathematics I
+MA2289 Basic UROPS in Mathematics II
+MA2311 Techniques in Advanced Calculus
+MA2501 Differential Equations and Systems
+MA3110 Mathematical Analysis II
+MA3110S Mathematical Analysis II (S)
+MA3111 Complex Analysis I
+MA3205 Set Theory
+MA3209 Mathematical Analysis III
+MA3218 Applied Algebra
+MA3220 Ordinary Differential Equations
+MA3236 Non-Linear Programming
+MA3238 / ST3236 Stochastic Processes I
+MA3264 Mathematical Modelling
+MA3265 Introduction to Number Theory
+MA3269 Mathematical Finance I
+MA3288 Advanced UROPS in Mathematics I
+MA3289 Advanced UROPS in Mathematics II
+MA3311 Undergraduate Professional Internship Programme
+MA3312 Enhanced Undergraduate Professional Internship Programme
+MA4199 Honours Project in Mathematics
+MA4203 Galois Theory
+MA4230 Matrix Computation
+MA4235 Topics in Graph Theory
+MA4247 Complex Analysis II
+MA4252 Advanced Ordinary Differential Equations
+MA4254 Discrete Optimization
+MA4262 Measure and Integration
+MA4269 Mathematical Finance II
+MA4270 Data Modelling and Computation
+MA4291 Undergraduate Topics in Mathematics I
+MA5198 GRADUATE SEMINAR MODULE IN MATHEMATICS
+MA5203 Graduate Algebra I
+MA5205 Graduate Analysis I
+MA5209 Algebraic Topology
+MA5211 Lie Theory
+MA5217 Graduate Complex Analysis
+MA5219 Logic and Foundation of Mathematics I
+MA5233 Computational Mathematics
+MA5241 COMPUTATIONAL HARMONIC ANALYSIS
+MA5243 Advanced Mathematical Programming
+MA5248 Stochastic Analysis in Mathematical Finance
+MA5295 DISSERTATION FOR MSC BY COURSEWORK
+MA6202 TOPICS IN ALGEBRA AND NUMBER THEORY II
+ME2112 Strength of Materials
+ME2121E Engineering Thermodynamics
+ME2134 Fluid Mechanics I
+ME2134E Fluid Mechanics I
+ME2142 Feedback Control Systems
+ME2142E Feedback Control Systems
+ME2151 Principles of Mechanical Eng. Materials
+ME2151E Principles of Mechanical Eng. Materials
+ME3103 Mechanical Systems Design
+ME3112E Mechanics of Machines
+ME3122 Heat Transfer
+ME3162 Manufacturing Processes
+ME3162E Manufacturing Processes
+ME3211 Mechanics Of Solids
+ME3242 Automation
+ME3242E Automation
+ME3251 Materials For Engineers
+ME3261 Computer-Aided Design And Manufacturing
+ME3261E Computer-Aided Design and Manufacturing
+ME3263 Design For Manufacturing And Assembly
+ME3263E Design for Manufacturing and Assembly
+ME4101 Bachelor Of Engineering Dissertation
+ME4101A Bachelor Of Engineering Dissertation
+ME4102 Standards in Mechanical Engineering
+ME4105 Specialization Study Module
+ME4223 Thermal Environmental Engineering
+ME4223E Thermal Environmental Engineering
+ME4226 Energy and Thermal Systems
+ME4233 Computational Methods In Fluid Mechanics
+ME4245 Robot Mechanics and Control
+ME4245E Robot Mechanics and Control
+ME4256 Functional Materials and Devices
+ME4291 Finite Element Analysis
+ME5205 ENERGY ENGINEERING
+ME5207 SOLAR ENERGY SYSTEMS
+ME5304 Experimental Fluid Mechanics
+MKT1003A Principles of Marketing
+MKT1003B Principles of Marketing
+MKT1003C Principles of Marketing
+MKT1003D Principles of Marketing
+MKT1003X Principles of Marketing
+MKT1705A Principles of Marketing
+MKT1705B Principles of Marketing
+MKT1705C Principles of Marketing
+MKT1705D Principles of Marketing
+MKT1705X Principles of Marketing
+MKT2414 Marketing Venture Challenge
+MKT3401A Marketing Strategy: Analysis and Practice
+MKT3401B Marketing Strategy: Analysis and Practice
+MKT3402 Consumer Behaviour
+MKT3412 Services Marketing
+MKT3416 Business-to-Business Marketing
+MKT3418 Product And Brand Management
+MKT3420 Advertising & Promotion Management
+MKT3426 Global Marketing
+MKT3428 Wealth Management Marketing
+MKT3701A Marketing Strategy: Analysis and Practice
+MKT3701B Marketing Strategy: Analysis and Practice
+MKT3702 Consumer Behaviour
+MKT3711 Services Marketing
+MKT3715 Business-to-Business Marketing
+MKT3717 Product & Brand Management
+MKT3718 Advertising & Promotion Management
+MKT3721 Global Marketing
+MKT3761A TIM: Wealth Management Marketing
+MKT4412 Marketing Theory: Cultivating Critical Thinking
+MKT4413 Pricing Strategy
+MKT4417 Consumer Decision Making
+MKT4420 Marketing Analytics
+MLE1001 Materials Science & Engrg Principles & Practice I
+MLE2101 Introduction to Structure of Materials
+MLE2102 Thermodynamics and Phase Diagrams
+MLE2103 Phase Transformation and Kinetics
+MLE3102 Degradation and Failure of Materials
+MLE3103 Materials Design and Selection
+MLE3104 Polymeric and Composite Materials
+MLE3105 Dielectric and Magnetic Materials
+MLE3111 Materials Processing Laboratory
+MLE3202 Materials for Biointerfaces
+MLE3203 Engineering Materials
+MLE4101 B.Eng. Dissertation
+MLE4101R Integrated B.ENG./B.SC. (Hons) Dissertation
+MLE4102 Design Project
+MLE4201 Advanced Materials Characterisation
+MLE4205 Theory and Modelling of Materials Properties
+MLE4208 Photovoltaics Materials
+MNO1001A Management And Organisation
+MNO1001B Management And Organisation
+MNO1001C Management And Organisation
+MNO1001D Management And Organisation
+MNO1001X Management And Organisation
+MNO1706A Organisational Behavior
+MNO1706B Organisational Behavior
+MNO1706C Organisational Behavior
+MNO1706D Organisational Behavior
+MNO1706X Organisational Behavior
+MNO2007 Leadership and Ethics
+MNO2009 Entrepreneurship
+MNO2705A Leadership and Decision Making under Uncertainty
+MNO2705B Leadership and Decision Making under Uncertainty
+MNO2705C Leadership and Decision Making under Uncertainty
+MNO2706 Business Communication for Leaders (ACC)
+MNO3301 Organisational Behaviour
+MNO3313J TILHCM: Employee and Organizational Misbehaviours
+MNO3320 Managing Change
+MNO3323 Management of Employee Relations
+MNO3330 Social Entrepreneurship
+MNO3333 Human Capital Management
+MNO3701 Human Capital Management
+MNO3711 Managing Change
+MNO3713 Management of Employee Relations
+MNO3811 Social Entrepreneurship
+MNO4314 Consulting to Management
+MS1102E Malays - Tradition, Conflict and Change
+MS2212 Law and Malay Society
+MS2213 Malay Families and Households
+MS3212 Classical Malay Literature
+MS3218 The Religious Life of the Malays
+MS3550 Malay Studies Internship
+MS4101 Theory and Practice in Malay Studies
+MS4201 Social Change in the Malay World 1900-1965
+MS4204 The Malay Middle Class
+MS4880A Orientations in Muslim Resurgence Movements
+MS5101 SOCIAL SCIENCE AND MALAY STUDIES
+MS6201 Literature and Art in Malay Society
+MS6770 GRADUATE RESEARCH SEMINAR
+MT3001 Systems Thinking and Engineering
+MT4001 Innovation and Entrepreneurial Strategy
+MT4002 Technology Management Strategy
+MT5002 Management of Industrial R&D
+MUA1101 Composition Major Study 1A
+MUA1107 Large Ensembles 1A
+MUA1111 Piano Ensemble 1A
+MUA1115 Foundations of Vocal Accompaniment / Sight-Reading
+MUA1149 Practical Skills for the Versatile Percussionist A
+MUA1153 Noon Recital Series 1A
+MUA1157 Solfege 1
+MUA1161 Major Study 1A
+MUA1163 The Profession of Music 1
+MUA1165 Music and Machines
+MUA1170 Fundamentals of Music Production and Recording 1
+MUA1172 Critical Listening 1
+MUA1190 Applied Voice Major Study 1A
+MUA1192 Chamber Singers 1
+MUA1193 Chamber Singers 2
+MUA1196 Diction for Singers 1
+MUA1201 Rudiments of Musicianship
+MUA1270 Interdisciplinary Electronic Arts Survey
+MUA2101 Composition Major Study 2A
+MUA2107 Large Ensembles 2A
+MUA2109 Chamber Music I
+MUA2110 Chamber Music in Mixed Ensemble
+MUA2131 Contemporary Music Performance
+MUA2153 Noon Recital Series 2A
+MUA2154 Noon Recital Series 2B
+MUA2161 Major Study 2A
+MUA2163 Leading and Guiding Through Music
+MUA2170 Multitrack Recording 1
+MUA2172 Room Acoustics
+MUA2175 RAS Project 1
+MUA2182 Percussion Audition Techniques 2A
+MUA2184 Orchestral Repertoire for Double Bass 2A
+MUA2186 Orchestral Repertoire for Harp 2A
+MUA2190 Applied Voice Major Study 2A
+MUA2192 Chambers Singers 3
+MUA2193 Chambers Singers 4
+MUA2201 Keyboard Literature I
+MUA2205 Rhythmical Devices in Performance
+MUA2206 Harmonic Hearing for Performers
+MUA2208 Advanced Contemporary Music Performance
+MUA2209 Advanced Contemporary Music Performance
+MUA2240 Collaborative Piano - Piano Ensemble
+MUA2241 Collaborative Piano - Vocal Accompaniment
+MUA2242 Collaborative Piano - Instrumental Accompaniment
+MUA2243 Collaborative Piano - Chamber Music
+MUA2255 Applied Secondary A
+MUA2256 Applied Secondary B
+MUA2270 Synthesis and Signal Processing
+MUA2271 Virtual Instrument Sound Design
+MUA3101 Composition Major Study 3A
+MUA3107 Large Ensembles 3A
+MUA3109 Chamber Music II
+MUA3110 Chamber Ensemble 3B
+MUA3113 Keyboard Skills For Piano Majors III
+MUA3116 Pedagogy for Orchestral Instrumentalists
+MUA3131 Orchestral Excerpts for Strings 3A
+MUA3153 Noon Recital Series 3A
+MUA3154 Noon Recital Series 3B
+MUA3161 Major Study 3A
+MUA3163 Musical Pathways
+MUA3164 Career Development Project
+MUA3170 Audio Postproduction I
+MUA3175 AAS Project 3
+MUA3176 RAS Project 4
+MUA3177 Music Programming & Production
+MUA3178 MS / MCP 3rd Year Project
+MUA3179 Capstone Project for Second Major in Music
+MUA3181 Advanced Concepts in Orchestral Repertoire I
+MUA3182 Percussion Audition Techniques 3A
+MUA3184 Orchestral Repertoire for Double Bass 3A
+MUA3188 Live Sound Reinforcement
+MUA3191 Junior Recital in Voice
+MUA3194 Voice Literature 1
+MUA3201 Advanced Contemporary Music Performance
+MUA3205 Jazz Study and Performance 1
+MUA3216 Performance and Communication
+MUA3218 Introduction to Piano Technology
+MUA3221 Intensive Music Engagement Practicum
+MUA3222 SEAsian Regional Creative Project
+MUA3224 Intermediate Keyboard Studies
+MUA3226 Collaboratory
+MUA3230 Music Cognition
+MUA3240 Collaborative Piano - Piano Ensemble
+MUA3241 Collaborative Piano - Vocal Accompaniment
+MUA3242 Collaborative Piano - Instrumental Accompaniment
+MUA3243 Collaborative Piano - Chamber Music
+MUA3255 Applied Secondary C
+MUA3256 Applied Secondary D
+MUA3260 Internship in Music Related Pathways
+MUA3261 Career Development Group Project
+MUA3264 Career Development Independent Project
+MUA3271 Acoustics and Sound Production for Performers
+MUA4101 Composition Major Study 4A
+MUA4107 Large Ensembles 4A
+MUA4108 Leadership Skills in an Orchestral Context
+MUA4109 Chamber Music
+MUA4110 Chamber Music in Mixed Ensemble
+MUA4113 Piano Pedagogy A
+MUA4153 Noon Recital Series 4A
+MUA4161 Major Study 4A
+MUA4171 Audio for Media
+MUA4172 Internship in Audio Arts and Sciences 1
+MUA4175 RAS Final Project
+MUA4176 Music Production and Marketing
+MUA4181 Advanced Concepts in Orchestral Repertoire II
+MUA4190 Applied Voice Major Study 4A
+MUA4203 Advanced Conducting I
+MUA4205 Advanced Conducting II
+MUA4231 Orchestral Excerpts for Strings 4A
+MUA5115 Ensemble Study 5A
+MUA5116 Ensemble Study 5B
+MUA5161 Major Study 5A
+MUA5162 Major Study 5B
+MUA6115 Ensemble Study 6A
+MUA6116 Ensemble Study 6B
+MUA6161 Major Study 6A
+MUA6162 Major Study 6B
+MUH1100 Understanding and Describing Music
+MUH1101 Foundations for Musical Discovery
+MUH2201 Classical Styles and Romantic Spirits
+MUH2203 Music of the Church and State
+MUH4204 Music History for Post-Graduate Placement
+MUL1105 Italian for Singers I
+MUL1107 French for Singers 1
+MUL1109 German for Singers 1
+MUT1101 Introduction to Musical Concepts and Materials
+MUT1201 Introduction to Classical Music Composition
+MUT2204 Formal Practices
+MUT2205 Text and Music
+MUT3113 Orchestration A
+MUT3201 Modern Music
+MUT3214 Concerto and Cadenza
+MUT3215 Fundamentals of Composition
+MUT3221 Writing for Chinese Ensembles
+MUT3224 Teaching Music Online
+MUT4201 Graduate Theory Preparation
+NM1101E Communications, New Media and Society
+NM2101 Theories of Communications and New Media
+NM2103 Quantitative Research Methods
+NM2104 Qualitative Communication Research Methods
+NM2201 Intercultural Communication
+NM2208 Principles of Visual Communication
+NM2209 Social Psychology of New Media
+NM2213 Introduction to Human-Computer Interaction Design
+NM2219 Principles of Communication Management
+NM2219Y Principles of Communication Management
+NM2220 Introduction to Media Writing
+NM2303 Fake News, Lies and Spin: How to Sift Fact from Fiction
+NM3211 News Reporting and Editing
+NM3215 Advertising Strategies
+NM3216 Game Design
+NM3217 Design for Strategic Communications
+NM3230 Photographic and Video Storytelling
+NM3232Y Strategic Communication: Conce
+NM3233 Strategic Communication: Applications
+NM3237Y Health Communication
+NM3240 Digital Media and Political Communication
+NM3550Y Communications & New Media Internship
+NM4102 Advanced Communications & New Media Research
+NM4203 Infocomm Technology Policy
+NM4206 Media and Communications Regulation
+NM4211 Online Journalism
+NM4221 Writing for Health Communication and New Media
+NM4225 Design Fiction
+NM4227 Playable Art
+NM4230 Communication for Social Change
+NM4881A Topics in Media Studies: Social Media
+NM4881B Postcolonial Approaches to Media and Communication
+NM4881E Photography, Visual Rhetoric, and Public Culture
+NM4883D New Media Production and Public Engagement
+NM4883F Financial Journalism
+NM5204 Computer-Mediated Environments
+NM5204R Computer-Mediated Environments
+NM6101 ADVANCED THEORIES IN CNM
+NM6104 Qualitative Research Methods in Communications and New Media
+NUR1107A Nursing Practice Experience 1.1
+NUR1110 Effective Communication for Health Professionals
+NUR1114 Fundamentals of Nursing
+NUR1117 Anatomy and Physiology I
+NUR1122C Health Assessment
+NUR1201C Health Continuum for Older Adults
+NUR1202C Clinical Experience I
+NUR2106A Nursing Practice Experience 2.1
+NUR2113 Mental Health Nursing
+NUR2118 Pathophysiology and Pharmacology for Nurses II
+NUR2120 Professional Nursing Practice, Ethics and Law
+NUR2202C Pathophysiology, Pharmacology and Nursing Practice II
+NUR3105A Nursing Practice Experience 3.1
+NUR3113 Medical-Surgical Nursing III
+NUR3114 Leadership and Management
+NUR3117 Community Integrated Health Care
+NUR3202C Research and Evidence-based Healthcare
+NUR4101B Evidence-based Health Care Practice
+NUR4103B Applied Research Methods
+NUR4104B Honours Project in Nursing
+OT5202 Analysis & Design of Offshore Structures
+OT5207 Arctic Engineering
+OT5402 Geophysical Imaging of the Earth Interior
+OT5404 Reservoir Characterization and Rock Physics
+OT5405 Enhanced Oil Recovery
+PA1113 Basic Pharmacology
+PA1113A Basic Pharmacology
+PA2131 Pharmacology
+PC1141 Introduction to Classical Mechanics
+PC1142 Introduction to Thermodynamics and Optics
+PC1221 Fundamentals of Physics I
+PC1222 Fundamentals of Physics II
+PC1421 Physics for Life Sciences
+PC1431 Physics IE
+PC1432 Physics IIE
+PC1433 Mechanics and Waves
+PC2020 Electromagnetics for Electrical Engineers
+PC2131 Electricity & Magnetism I
+PC2132 Classical Mechanics
+PC2134 MATHEMATICAL MTDS IN PHYSICS I
+PC2193 Experimental Physics I
+PC2239 Special Problems in Undergrad Physics I
+PC2267 Biophysics I
+PC2288 Basic UROPS in Physics I
+PC2289 Basic UROPS in Physics II
+PC3130 Quantum Mechanics II
+PC3193 Experimental Physics II
+PC3231 Electricity & Magnetism II
+PC3232 Nuclear & Particle Physics
+PC3235 Solid State Physics I
+PC3239 Special Problems in Undergrad Physics II
+PC3247 Modern Optics
+PC3274 Mathematical Methods in Physics II
+PC3280 Senior Student Seminar
+PC3288 Advanced UROPS in Physics I
+PC3289 Advanced UROPS in Physics II
+PC3294 Radiation Laboratory
+PC3311 Undergraduate Professional Internship
+PC3312 Enhanced Undergraduate Professional Internship Programme
+PC4199 Honours Project in Physics
+PC4199R Integrated B.ENG./B.SC. (Hons) Dissertation
+PC4230 Quantum Mechanics III
+PC4236 Computational Condensed Matter Physics
+PC4240 Solid State Physics II
+PC4241 Statistical Mechanics
+PC4246 Quantum Optics
+PC4248 General Relativity
+PC4249 Astrophysics II
+PC4259 Surface Physics
+PC4267 Biophysics III
+PC5204 SPECIAL TOPICS IN PHYSICS
+PC5206 Selected Topics in Quantum Field Theory
+PC5209 Accelerator Based Materials Characterisation
+PC5215 NUMERICAL RECIPES WITH APPLICATIONS
+PC5228 Quantum Information and Computation
+PC5239 SPECIAL PROBLEMS IN PHYSICS
+PC5288 M.SC COURSEWORK THESIS FOR PHYSICS
+PC5289 M.SC.(COURSEWORK) THESIS FOR APPLIED PHYSICS
+PF1101 Fundamentals of Project Management
+PF1106 Introduction to Measurement
+PF1107 Project And Facilities Management Law
+PF2101 Project and Facilities Management Law
+PF2102 Structural Systems
+PF2106 Project & Facilities Communication Management
+PF2107 Construction Technology
+PF2201 Scope and Design Management
+PF2205 Project Finance
+PF2305 Event Management
+PF2501 Structural Systems
+PF2502 Development Technology  and Management
+PF3205 Advanced Measurement
+PF3206 Project Scheduling and Control
+PF3301 Maintainability of Facilities
+PF3302 Energy Management
+PF4101 Dissertation
+PF4102 Contract and Procurement Management
+PF4202 Safety, Health and Environmental Mgt
+PF4206 Building Information Modelling
+PF4301 Strategic Facilities Management
+PF4307 Event Management
+PH2206 / GEK2028 Founders of Modern Philosophy
+PH2211 Philosophy of Religion
+PH2213 Metaphysics
+PH2222 / GEK2036 Greek Philosophy (Socrates and Plato)
+PH3203 Moral Philosophy
+PH3245 Language and Thought
+PH3248 Social and Formal Epistemology
+PH3249 Decision and Social Choice
+PH4206 A Major Philosopher
+PH4211 Issues in Epistemology
+PH4240 Issues in Metaphysics
+PH4242 Issues in Philosophy of Language
+PH4401 Honours Thesis
+PH4550 Internship: Philosophy for Teaching
+PH4660 Independent Study
+PH5660 Independent Study
+PH6210 TOPICS IN HISTORY OF WESTERN PHILOSOPHY
+PH6660 Independent Study
+PH6760 PHILOSOPHICAL TOPICS
+PH6770 GRADUATE RESEARCH SEMINAR
+PL1101E Introduction to Psychology
+PL2131 Research and Statistical Methods I
+PL2132 Research and Statistical Methods II
+PL3231 Independent Research Project
+PL3232 Biological Psychology
+PL3233 Cognitive Psychology
+PL3234 Developmental Psychology
+PL3235 Social Psychology
+PL3236 Abnormal Psychology
+PL3239 Industrial and Organisational Psychology
+PL3240 Group Dynamics
+PL3244 Adolescent Psychology
+PL3254 Introduction to Trauma Psychology
+PL3257 Introduction to Clinical Psychology
+PL3281 Lab in Cognitive Psychology
+PL3282 Lab in Social Psychology
+PL3283B Lab in Development of Communication
+PL3287 Lab in Clinical/Abnormal Psychology
+PL3551 FASS Undergraduate Research Opportunity (UROP)
+PL4201 Psychometrics and Psychological Testing
+PL4203 Cognition
+PL4205 Developmental Processes
+PL4207 Social Psychology: Theories and Methods
+PL4219 Advanced Abnormal Psychology
+PL4221 Early Language Development
+PL4223 Introduction to Clinical Neuropsychology
+PL4224 Child Abnormal Psychology
+PL4226 Correctional Psychology
+PL4228 Criminal Forensic Psychology
+PL4235 The Psychology of Moral Judgments
+PL4401 Honours Thesis
+PL4660 Independent Study
+PL4880K Parenting and Child Development
+PL4880L Applying Cognitive Psychology to Learning & Instruction
+PL4880P Psychology of Religion
+PL4880R Issues in Adolescent Developmt
+PL5221R Analysis of Psychological Data using GLM
+PLS8001 Cultivating Collaboration
+PM5103 CONTRACT MANAGEMENT
+PM5106 DESIGN MANAGEMENT
+PM5111 SPECIAL TOPICS IN PROJECT MANAGEMENT
+PM5112 RESEARCH METHODS
+PM5113 Managing Projects using BIM
+PM5114 Managing Complex Projects
+PM5116 Project Finance Case Studies
+PR1110 Foundations for Medicinal Chemistry
+PR1110A Foundations for Medicinal Chemistry
+PR1111 Pharmaceutical biochemistry
+PR1111A Pharmaceutical Biochemistry
+PR1140 Pharmacy Professional Skills Development I
+PR1301 Complementary Medicine and Health
+PR2114 Formulation & Technology I
+PR2131 Pharmacy Professional Skills Development II
+PR2133 Pharmacotherapeutics I
+PR2202 Cosmetics & Perfumes
+PR2288 Basic UROPS in Pharmacy I
+PR2289 Basic UROPS in Pharmacy II
+PR3116 Concepts in Pharmacokinetics and Biopharmaceutics
+PR3117 Formulation & Technology II
+PR3124 Pharmacotherapeutics III
+PR3146 Pharmacy Law in Singapore
+PR3202 Community Health & Preventative Care
+PR3288 Advanced UROPS in Pharmacy I
+PR3289 Advanced UROPS in Pharmacy II
+PR4138 Pharmacy Professional Skills Development IV
+PR4196 Pharmacy Research Project and Scientific Communication
+PR4197 Pharmacy Internship I
+PR4198 Pharmacy Internship II
+PR4205 Bioorganic Principles of Medicinal Chemistry
+PR5211 PHARMACEUTICAL ANALYSIS IV
+PR5217 FORMULATION SCIENCE
+PS1101E / GEK1003 Introduction to Politics
+PS2203 / EU2203 Ancient Western Political Thought
+PS2237 Introduction to International Relations
+PS2240 Introduction to Public Administration
+PS2249 / GEK2003 / SSA2209 Government and Politics of Singapore
+PS2251 The Region in the Postcolonial World
+PS2255 / GEK2025 Politics of the Middle East
+PS2257 Contemporary African Politics
+PS2258 Introduction to Political Theory
+PS3232 Democratic Theory
+PS3238 International Political Economy
+PS3249 / SSA3205 Singapore's Foreign Policy
+PS3257 Political Inquiry
+PS3258 Research Methods in Political Science
+PS3267 German Political Thought
+PS3274 Environmental Politics
+PS3311 International Ethics
+PS3550 Political Science Internship
+PS3551 FASS Undergraduate Research Opportunity (UROP )
+PS4203 China's Foreign Policy
+PS4206 Regional Security in the Asia Pacific
+PS4209 Public Organisation Theory and  Practice
+PS4224 State and Society
+PS4228 Comparative Democratic Politics
+PS4235 War Termination and the Stability of Peace
+PS4237 Capitalism and Political Theory
+PS4311 International Relations in Political Thought
+PS4401 Honours Thesis
+PS4660 Independent Study
+PS4882A Topics in IR: Globalisation, Security and the State
+PS4882H Topics in IR: Food Politics
+PS4882I Topics in IR: International Society
+PS4883A Topics in PT: Orientalism and Femininity
+PS5314R Seminar in Int'l Relations
+PX2108 Basic Human Pathology
+QF3311 Undergraduate Professional Internship
+QF3312 Enhanced Undergraduate Professional Internship Programme
+QF4102 Financial Modelling and Computation
+QF4199 Honours Project in Quantitative Finance
+QF5210 Financial Time Series: Theory and Computation
+RE1701 Urban Land Use and Development
+RE1702 Real Estate Data Analytics
+RE1703 Principles of Law for Real Estate
+RE2701 Urban Planning
+RE2702 Land Law
+RE2708 Computational Thinking and Programming for Real Estate
+RE3101 ADVANCED REAL ESTATE VALUATION
+RE3102 ADVANCED TOPICS IN URBAN PLANNING
+RE3103 Real Estate Development
+RE3104 Real Estate Investment Analysis
+RE3107 REAL ESTATE PRACTICE AND ETHICS
+RE4000 Dissertation
+RE4001 Real Estate Case Study
+RE4203 Topics in Real Estate (Summer Programme)
+RE4204 Advanced Real Estate Marketing
+RE4211 REIT MANAGEMENT
+RE4212 REAL ESTATE SECURITIZATION
+RE4222 Public Policy and Real Estate Markets
+RE4301 Housing Markets and Housing Policies
+SC1101E Making Sense of Society
+SC2101 Methods of  Social Research
+SC2202 Sociology of Work
+SC2207 Peoples & Cultures of Southeast Asia
+SC2208 Baby or No Baby: Population Dynamics at a Crossroads
+SC2209 Money, Business and Social Networks
+SC2210 Sociology of Popular Culture
+SC2212 Sociology of Deviance
+SC2213 Childhood and Youth
+SC2214 Media and Culture
+SC2218 Anthropology and the Human Condition
+SC3101 / EU3224 Social Thought & Social Theory
+SC3202 From Modernization to Globalization
+SC3203 Race and Ethnic Relations
+SC3204 Sociology of Education
+SC3205 Sociology of Power:Who Gets to Rule?
+SC3207 Cultures of Kinship
+SC3209 Data Analysis in Social Research
+SC3212 Southeast Asia in a Globalizing World
+SC3215 Law and Society
+SC3220 Ritual, Performance and Symbolic Action
+SC3221 Qualitative Inquiry
+SC3223 Visual Culture I: Seeing & Representing
+SC3229 Comparing Deviance: Perverts & Scandalous Improprieties
+SC3551 FASS Undergraduate Research Opportunity (UROP)
+SC4101 Practising Anthropology and Sociology
+SC4201 Contemporary Social Theory
+SC4206 Urban Anthropology
+SC4209 Interpretive Sociology
+SC4219 Social Origins and Consequences of Financial Crises
+SC4221 Comparative Analysis of Human Rights
+SC4222 Body and Society
+SC4224 Welfare and Social Justice
+SC4227 Gender, Sex and Power
+SC4228 Making Sense of Violence
+SC4401 Honours Thesis
+SC4660 Independent Study
+SC4880B Advanced Sociological Analysis of Singapore Society
+SC4881 Selected Topics in Health & Society
+SC5101R Graduate Research Methods
+SE1101E / GEK1008 / SSA1202 Southeast Asia: A Changing Region
+SE2210 Popular Culture in Southeast Asia
+SE2213 / SSA2207 Politics in Southeast Asia
+SE2219 Culture and Power in Southeast Asia
+SE2221 Old and New Music in Southeast Asia
+SE2227 Southeast Asian Gardens: History and Symbolism
+SE2660 Independent Study
+SE3214 Heritage and Heritagescapes in Southeast Asia
+SE3216 Migration and Diaspora in Southeast Asia
+SE3230 Seen and Unseen: Explorations in Balinese Theatre
+SE3232 Death and Dying in Southeast Asia
+SE3550 Southeast Asian Studies Internship
+SE3660 Independent Study
+SE4101 Southeast Asia Studies: Theory and Practice
+SE4210 Ancient Kingdoms of Southeast Asia
+SE4217 Southeast Asia in the Global Economy
+SE4226 Doing Ethnography in Southeast Asia
+SE4401 Honours Thesis
+SN1101E South Asia : People, Culture, Develop'm
+SN2234 Gender and Society in South Asia
+SN2261 The Emergence of Contemporary South Asia
+SN2274 South Asian Cultures: An Introduction
+SN2275 Contemporary Tamil Literature
+SN3223 International Relations of South Asia
+SN3261 Exile, Indenture, IT: Global South Asians
+SN3281 The Story of Indian Business
+SN3550 Internship
+SN4101 Approaches to the Study of South Asia
+SN4401 Honours Thesis
+SP1541 Exploring Science Communication through Popular Science
+SP2171 Discovering Science
+SP2173 Atoms to Molecules
+SP3172 Integrated Science Project
+SP3202 Evidence in Forensic Science
+SP3203 Aquatic Ecology Research
+SP4261 Articulating Probability and Statistics in Court
+SP4262 Forensic Human Identification
+SPH2101 Public Health and Epidemiology
+SPH2102 Lifestyle, Behaviour and Public Health
+SPH2105 Introduction to Global Health
+SPH2106 Health in the Later Years
+SPH2107 Social Determinants of Health
+SPH3101 Biostatistics for Public Health
+SPH3103 Public Health Economics
+SPH3109 Designing Public Health Programmes
+SSA1201 Singapore Society
+SSA1208 Everyday Life of Chinese Singaporeans: Past & Present (taught in English)
+SSA2206 Islam and Contemporary Malay Society
+SSA2211 The Evolution of a Global City-State
+SSA2218 Singapore Film: Performance of Identity
+SSA2219 South Asia in Singapore
+SSA2220 Global Economic Dimensions of Singapore
+SSA2220T Global Economic Dimensions Of Singapore
+SSA2221 Popular Culture in Singapore
+SSD1203 Real Estate Development & Investment Law
+SSD2210 Managing Singapore's Built Environment
+SSS1207 Natural Heritage of Singapore
+SSY2223 Western Music within a Singaporean Context
+ST1131 Introduction to Statistics
+ST1232 Statistics for Life Sciences
+ST2132 Mathematical Statistics
+ST2137 Computer Aided Data Analysis
+ST2288 Basic UROPS in Statistics and Applied Probability I
+ST2289 Basic UROPS in Statistics and Applied Probability II
+ST2334 Probability and Statistics
+ST3131 Regression Analysis
+ST3233 Applied Time Series Analysis
+ST3240 Multivariate Statistical Analysis
+ST3242 Introduction to Survival Analysis
+ST3243 Statistical Methods in Epidemiology
+ST3248 Statistical Learning I
+ST3288 Advanced UROPS in Statistics & Applied Probability I
+ST3289 Advanced UROPS in Statistics & Applied Probability II
+ST4199 Honours Project in Statistics
+ST4231 Computer Intensive Statistical Methods
+ST4233 Linear Models
+ST4234 Bayesian Statistics
+ST4241 Design & Analysis of Clinical Trials
+ST4245 Statistical Methods for Finance
+ST5206 GENERALIZED LINEAR MODELS
+ST5214 Advanced Probability Theory
+ST5215 ADVANCED STATISTICAL THEORY
+STR1000 Career Creation Starter Workshops
+STR2000 Career Creation Starter Clinics
+SW1101E Social Work: A Heart-Head-Hand Connection
+SW2101 Working with Individuals and Families
+SW2104 Human Development over the Lifespan
+SW2105 Values & Skills for Helping Relationships
+SW2106 Social Group Work Practice
+SW3101 Social Work Research Methods
+SW3105 Community Work Practice
+SW3207 Social Work in Medical Settings
+SW3209 Counselling Theories & Practice
+SW3880 Special Topics in Social Work
+SW4101 Advanced Family-Centred Swk Practice
+SW4102 Social Policy and Planning
+SW4103 Advanced Research and Evaluation
+SW4202 Special Areas of Social Work Practice
+SW4208 Social Gerontology
+SW4213 SOCIAL NETWORKS & SOCIAL SUPPORT
+SW4401 Honours Thesis
+SW4660 Independent Study
+SW5207R Working with Multi-Stressed Families
+SW5880R Special Topics in Social Work
+TBA2102 Introduction to Business Analytics
+TC1005 MATLAB Programming for Chemical Engineers
+TCE1109 Statics And Mechanics of Materials
+TCE2112 Soil Mechanics
+TCE2155 Structural Mechanics and Materials
+TCE2183 Construction Project Management
+TCE2184 Infrastructure & the Environment
+TCN1005 MATLAB Programming for Chemical Engineers
+TCN2121 Chemical Engineering Thermodynamics
+TCN2122 Fluid Mechanics
+TCN3121 Process Dynamics & Control
+TCN3132 Separation Processes
+TCN3421 Process Modeling & Numerical Simulation
+TCN4122 Process Synthesis and Simulation
+TCN4208 Biochemical Engineering
+TCN4210 Membrane Science And Engineering
+TCN4215 Food Technology and Engineering
+TCN4246 Chemical And Bio-Catalysis
+TE2002 Engineering Mathematics II
+TE2003 Advanced Mathematics for Engineers
+TE2101 Programming Methodology
+TE4001 BTech Dissertation
+TEE2002 Engineering Mathematics II
+TEE2003 Advanced Mathematics for Engineers
+TEE2027 Electronic Circuits
+TEE2028 Microcontroller Programming and Interfacing
+TEE2101 Programming Methodology
+TEE3131 Communication Systems
+TEE3207 Computer Architecture
+TEE4101 Radio-Frequency (RF) Communications
+TEE4204 Computer Networks
+TEE4303 Industrial Control Systems
+TEE4436 Fabrication Process Technology
+TG1401 Engineering Mathematics I
+TG3001 Industrial Practice
+TG3002 Industrial Practice
+TIC1001 Introduction to Computing and Programming I
+TIC1101 Professional, Ethical, and Social Issues in Computing
+TIC2002 Introduction to Software Engineering
+TIC2101 Information Systems and Organisations
+TIC2301 Introduction to Information Security
+TIC2601 Database and Web Applications
+TIE2010 Introduction to Industrial System
+TIE2110 Operations Research I
+TIE2120 Probability and Statistics
+TIE2130 Quality Engineering I
+TIE3100 Systems Design Project
+TIE3101 Statistics for Engineering Applications
+TIE3110 Simulation
+TIE4240 Project Management
+TIE4259 Selected Topics in Systems Engineering
+TIE4299 Selected Topics in Industrial Engineering
+TM2401 Engineering Mathematics II
+TM4101 B.Tech. Dissertation
+TM4102 B.Tech. Dissertation
+TMA1001 Introductory Mathematics
+TMA2103 Probability and Statistics
+TME2121 Engineering Thermodynamics
+TME2134 Fluid Mechanics I
+TME2142 Feedback Control Systems
+TME2151 Principles of Mechanical Engineering Materials
+TME2401 Engineering Mathematics II
+TME3112 Mechanics of Machines
+TME3162 Manufacturing Processes
+TME3242 Automation
+TME3261 Computer-Aided Design and Manufacturing
+TME3263 Design for Manufacturing and Assembly
+TME4102 B.Tech. Dissertation
+TME4223 Thermal Environmental Engineering
+TME4245 Robot Mechanics and Control
+TP5025 Intelligent Transportation Systems
+TP5027 Transport & Freight Terminal Management
+TR2201 Entrepreneurial Marketing
+TR2201Y Entrepreneurial Marketing
+TR3002 New Venture Creation
+TS1101E / GEM1003 Introduction to Theatre and Performance
+TS2217 Introduction to Performance Studies
+TS2233 Making Contemporary Performance
+TS2236 Crossing Boundaries in Performance
+TS2240 Voice Studies and Production
+TS2880A Modern Drama in Asia
+TS3222 Applied Theatre
+TS3232 Performance & Social Space
+TS3245 Professional Theatre Internship
+TS3246 Shakespeare and Asian Performances
+TS3551 FASS Undergraduate Research Opportunity (UROP)
+TS4217 Cultural Performance in Asia
+TS4218 Theatre and Postmodernism
+TS4219 Media and Popular Performance
+TS4220 Shakespeare and Film
+TS4221 Performance Research
+TS4401 Honours Thesis
+TS4660 Independent Study
+TTG1401 Engineering Mathematics I
+TTG3001 Industrial Practice
+TTG3002 Industrial Practice
+UAR2207 Intercultural Exchanges through Theatre
+UCV2209 The Heterogeneous Indians of Contemporary Singapore
+UD5521 Planning Process: Quantitative & Policy Dimensions
+UHB2207 Language, Cognition, and Culture
+UHB2210 Emotion in Daily Life
+UIS3901 Independent Study Module
+UIS3901S Independent Study Module (ST)
+UIS3902 Independent Study Module
+UIS3902S Independent Study Module (ST)
+UIS3941 Independent Study Module
+UIS3942 Independent Study Module
+UIS3943 Independent Study Module
+UIS3944 Independent Study Module
+UIS4941 Independent Study Module
+UIS4942 Independent Study Module
+UIS4943 Independent Study Module
+UIS4944 Independent Study Module
+UIT2208 Thinking 4.0
+ULT2299C Topics in Lit. 2: The Subject of Reading
+UNL2201 Space, Time And Matter
+UNL2206 Nature's Threads
+UNL2210 Mathematics and Reality
+UPC2208 Molecular Courtship
+UPC2209 Pollution Control Engineering in Singapore
+UQF2101G Quantitative Reasoning Foundation: Quantifying Nuclear Risks
+UQF2101I Quantitative Reasoning Foundation: Quantifying Environmental Quality
+UQF2101J Quantitative Reasoning Foundation: Pursuit of Happiness
+USE2304 Singapore: The Making Of A Nation
+USR4002A Critical Reflection
+USS2105 University Scholars Seminar
+UTC1102B Junior Seminar: The Darwinian Revolution
+UTC1102G Junior Seminar: Proof: What�s Truth got to do with it?
+UTC1102U Junior Seminar: Disasters
+UTC1114 Junior Seminar From the Fire to the Frying Pan: Cooking and Eating in Human Culture(s)
+UTC1117 Junior Seminar: Radiation and Society
+UTC1119 Junior Seminar: Crime and Punishment
+UTC1402 Jr Sem: Generation Y: Transitions to Adulthood
+UTC1403 Jr Sem: Hidden Communities
+UTC1404 Jr Sem: Power and Ideas
+UTC1408 Jr Sem: Technology and Human Progress
+UTC1409 Jr Sem: The Pursuit of Happiness
+UTC1415 Jr Sem: Family in a Changing Singapore
+UTC1702B Thinking in Systems: Diseases and Healthcare
+UTC1702C Thinking in Systems: Sustainability and Us
+UTC1702D Thinking in Systems: Population Dynamics
+UTC1702E Thinking in Systems: Energy Systems
+UTC1702F Thinking in Systems: Disaster Resilience
+UTC2102 Climate Change
+UTC2107 Senior Seminar: Negotiating in a Complex World
+UTC2400 Community Leadership
+UTC2403 / UTS2403 Citizenship in a Changing World
+UTC2404 (Re)Building Communities: Insights from India
+UTC2409 / UTS2407 Understanding Communities: Theory & Practice
+UTC2700 An Undefeated Mind: An Experiential Inner Reengineering Approach
+UTC2703 Infectious Diseases: Dynamics, Strategies and Policies
+UTC2704 Projects in Systems Thinking and System Dynamics
+UTC2707 Understanding Health and Social Care in Singapore
+UTC2708 Singapore - A Smart Nation in Context : IoT & Big Data
+UTC2712 Hard to secure easy to waste - Singapore�s food story
+UTC2714 A social critique of markets in Singapore
+UTC2715 Decoding Complexity
+UTC2716 Mapping Hidden Connections with Network Science
+UTC2717 Navigation in Singapore Waters-Bridges and Barriers
+UTC2718 Energy and Singapore: Dynamics, Dilemmas and Decisions
+UTC2719 Society and Economy in Singapore: A Systems View
+UTC3100 Third Year Experience Workshops: �Exploring Possibilities�
+UTC3102 Tembusu Undergraduate Research Opportunity (UROP)
+UTC3400 Independent Study
+UTS2100 Intelligence and Singapore Society
+UTS2105 Singapore as �Model� City?
+UTS2400 Identities in Asia
+UTS2402 / UTC2402 Environment and Civil Society in Singapore
+UTS2500 College 3 Capstone Experience
+UTS2701 Understanding Health and Social Care in Singapore
+UTS2702 Singapore - A Smart Nation in Context : IoT & Big Data
+UTS2704 Hard to secure easy to waste - Singapore�s food story
+UTS2706 A social critique of markets in Singapore
+UTS2707 Decoding Complexity
+UTS2708 Navigation in Singapore Waters-Bridges and Barriers
+UTS2709 Energy and Singapore: Dynamics, Dilemmas and Decisions
+UTS2710 Society and Economy in Singapore: A Systems View
+UTW1001H Eating Right(s): The Politics of Food
+UTW1001N Public Persona and Self-presentations
+UTW1001P Heroes
+UTW1001S Women in Film
+UTW1001U The Detective
+UTW1001W The Online Politician: The Use of Social Media in Political Communication
+UTW1001Y Algorithmic Culture and its Discontents
+UTW1001Z Colour: Theory, meaning and practice
+UTW2001K Public Memory, Identity and Rhetoric
+UTW2001M Sport and Socialization
+UTW2001Q 'What's in a word?' Meaning across cultures
+UTW2001R Discourse, Citizenship, and Society
+UTW2001T Nobodiness: The Self as Story
+UWC2101B Writing and Critical Thinking: Civic Discourse in a Fractious World
+UWC2101D Writing and Critical Writing: Narrative in Everyday Life
+UWC2101F Writing and Critical Thinking: Human Trafficking and Modern Slavery
+UWC2101G Writing & Critical Thinking: Apocalyptic Cultures
+UWC2101L Writing and Critical Thinking: Conditions of Happiness
+UWC2101R Writing & Critical Thinking: Multidisciplinary Perspectives on 'Mind'
+UWC2101U Writing & Critical Thinking: Technologies of Home
+WR1401 Workplace Readiness
+XD3103 Planet Earth
+XFA4401 Integrated Honours Project
+XFA4402 Integrated Honours Thesis
+XFB4001 Integrated Honors Thesis
+XFB4002 Integrated Honours Dissertation
+XFC4101 Integrated Honours Thesis
+YHU2252 Ancient Greek Philosophy
+YHU2289 Ensemble Practice 1
+YHU3216 Photojournalism
+YHU3223 The Self in Comparative Perspective
+YHU3267 Classical Indian Philosophy of Language
+YHU3276 The Historian�s Craft
+YHU3287 Early Global Literatures and the World, 500-1500 CE
+YHU4236 �New� Media: Inquiries into Literature & Technology
+YHU4237 Chinese Prose
+YIL2201S Directed Language Study: Intermediate Sanskrit
+YLG1201 Beginning Ancient Greek
+YLL2201 Intermediate Latin
+YLS1202 Beginning Spanish 2
+YLS2201 Intermediate Spanish 1
+YLS2202 Intermediate Spanish 2
+YLS3201 Advanced Spanish: Spain, a Mosaic of Cultures
+YSC2216 Evolutionary Biology
+YSC2224 Organic Chemistry with Laboratory
+YSC2225 Physical Chemistry
+YSC3210 Introduction to Quantum Mechanics
+YSC3211 Introduction to Electrodynamics
+YSC4203 Topology
+YSS2224 Introduction to Global Affairs
+YSS3208 Advanced Microeconomics
+YSS3244 Labour Economics
+YSS4222 Contemporary European Politics
+YSS4244 African Atlantic Perspectives
+ZB3288 Advanced UROPS in Computational Biology I
+ZB3289 Advanced UROPS in Computational Biology II
+ZB4171 Advanced Topics in Bioinformatics
+ZB4199 Honours Project in Computational Biology

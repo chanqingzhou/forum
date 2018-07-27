@@ -21,7 +21,8 @@
     {% for year in module.moduleyear_set.all %}
         <br>
         <div style="text-align:center;font-size:30px">
-        <a href="{% url 'pyp:viewAnswer'  faculty.id   module.id year.id%} "><strong><bold>{{year}}</bold></strong></a>
+        <a href="{% url 'pyp:viewAnswer'  faculty.id   module.module_code year.id%} "><strong><bold>{{year}}</bold></strong></a>
+            {{year.answer_set.all|length}}
         </div>
     <br>
     {% endfor %}

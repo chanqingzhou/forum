@@ -24,18 +24,8 @@ def modules(request,faculty_id):
     faculty = get_object_or_404(Faculty, pk=faculty_id)
     return render(request,'pyp/modules.html', {'faculty':faculty})
 
-def submitModule(request, faculty_id):
-    faculty= get_object_or_404(Faculty, pk=faculty_id)
-    module=faculty.module_set.create(module_text=request.POST['modulename'],module_code=request.POST['modulecode'])
-    x=2018
-    for count in range(0,10):
-
-        module.moduleyear_set.create(year=str(x - count) + "Sem2")
-        module.moduleyear_set.create(year=str(x-count)+"Sem1")
-    return HttpResponseRedirect(reverse('pyp:modules',args=(faculty_id,)))
-
-def viewYear(request,faculty_id, module_id):
-    module = get_object_or_404(Module,pk=module_id)
+def viewYear(request,faculty_id, module_code):
+    module = get_object_or_404(Module,module_code=module_code)
     faculty = get_object_or_404(Faculty, pk=faculty_id)
     if not module.faculty.id == faculty_id:
         raise Http404("WTF are u doing")
@@ -43,9 +33,9 @@ def viewYear(request,faculty_id, module_id):
 
 
 
-def viewAnswer(request,faculty_id,module_id,year_id):
+def viewAnswer(request,faculty_id,module_code,year_id):
     faculty=get_object_or_404(Faculty,pk=faculty_id)
-    module= get_object_or_404(Module,pk=module_id)
+    module= get_object_or_404(Module,module_code=module_code)
     year= get_object_or_404(ModuleYear,pk=year_id)
 
     if request.method == 'POST':
@@ -57,6 +47,9 @@ def viewAnswer(request,faculty_id,module_id,year_id):
             answer = get_object_or_404(Answer, pk=request.POST['downvote'])
             answer.downvote += 1
             answer.save()
+        elif 'delete' in request.POST:
+            answer=get_object_or_404(Answer,pk=request.POST['delete'])
+            answer.delete()
         else :
             answer=Answer(answer_text="test",author=request.user)
             year.answer_set.add(answer,bulk=False)
@@ -78,9 +71,9 @@ def downloadAnswer(request,faculty_id,module_id,year_id, answerf_id):
 
     return response
 
-def viewComment(request,faculty_id,module_id,year_id,answer_id):
+def viewComment(request,faculty_id,module_code,year_id,answer_id):
     faculty=get_object_or_404(Faculty,pk=faculty_id)
-    module= get_object_or_404(Module,pk=module_id)
+    module= get_object_or_404(Module,module_code=module_code)
     year= get_object_or_404(ModuleYear,pk=year_id)
     answer=get_object_or_404(Answer,pk=answer_id)
     if request.method =='POST':
