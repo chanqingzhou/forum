@@ -1,4 +1,6 @@
+{% extends  'registration/base.html' %}
 {% load staticfiles %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,38 +12,23 @@
 <!-- STYLES & JQUERY
 ================================================== -->
 		{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/style.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/icons.css' %}"/>
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/skinblue.css' %}"/><!-- change skin color -->
-<link rel="stylesheet" type="text/css" href="{% static 'pyp/css/responsive.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/style.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/icons.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/skinblue.css' %}"/><!-- change skin color -->
+		<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/responsive.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/login.css'%}"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'accounts/images/favicon-32x32.png' %}">
+		<link rel="icon" type="image/png" sizes="96x96" href="{% static 'accounts/images/favicon-96x96.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'accounts/images/favicon-16x16.png' %}">
+		<body>
+<div class='container text-center'>
+	<p>Logged out!</p>
+</div>
 
-<link rel="icon" type="image/png" sizes="32x32" href="{% static 'pyp/images/favicon-32x32.png' %}">
-<link rel="icon" type="image/png" sizes="96x96" href="{% static 'pyp/images/favicon-96x96.png' %}">
-<link rel="icon" type="image/png" sizes="16x16" href="{% static 'pyp/images/favicon-16x16.png' %}">
-<body>
-	<!-- TOP LOGO & MENU
-	================================================== -->
-	<div class="grid">
-		<div class="row space-bot">
-			<!--Logo-->
-			<div class="c4">
-				<a href="../../../pyp/templates/pyp/index.html">
-				<img src="{%static 'pyp/images/logo.png' %}" class="logo" alt="">
-				</a>
-			</div>
-			<!--Menu-->
-			<div class="c8">
-				<nav id="topNav">
-				<ul id="responsivemenu">
-					<li class="active"><a href="{% url 'pyp:index' %}"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
-				</nav>
-			</div>
-		</div>
-	</div>
-{% block content %}
-<p>Logged out!</p>
+<div class='text-center'>
+	<a href="{% url 'login'%}">Click here to login again.</a>
+</div>
 
-<a href="{% url 'login'%}">Click here to login again.</a>
 {% endblock %}
 </body>
 </html>
