@@ -1,13 +1,28 @@
 # accounts/views.py
-from django.contrib.auth import login, authenticate
-from django.contrib.auth.forms import UserCreationForm, UserChangeForm
+from django.contrib.auth import ( 
+    login, 
+    authenticate, 
+    update_session_auth_hash
+)
+from django.contrib.auth.forms import (
+    UserCreationForm, 
+    UserChangeForm,
+    PasswordChangeForm
+)
 from django.contrib.auth.models import User
 from django.urls import reverse_lazy
 from django.views import generic
 from django.template import loader
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import get_object_or_404, render, redirect
-from accounts.forms import SignUpForm, EditProfileForm
+from django.shortcuts import (
+    get_object_or_404, 
+    render, 
+    redirect
+)
+from accounts.forms import (
+    SignUpForm, 
+    EditProfileForm
+)   
 
 # Signing up
 def signup(request):
@@ -46,3 +61,37 @@ def edit_profile(request):
 def timeline(request):
     return render(request, 'registration/timeline.html')
 
+# Passwords
+def change_password(request):
+    if request.method == 'POST':
+        form = PasswordChangeForm(data=request.POST, user=request.user)
+
+        if form.is_valid():
+            form.save()
+            update_session_auth_hash(request, form.user)
+            return redirect('../profile')
+        
+        else:
+            return redirect('../change-password-invalid')
+
+    else: 
+        form = PasswordChangeForm(user=request.user)
+        args = {'form': form}
+        return render(request, 'registration/change_password.html', args)
+
+def change_password_invalid(request):
+    if request.method == 'POST':
+        form = PasswordChangeForm(data=request.POST, user=request.user)
+
+        if form.is_valid():
+            form.save()
+            update_session_auth_hash(request, form.user)
+            return redirect('../profile')
+        
+        else:
+            return redirect('../change-password-invalid')
+
+    else: 
+        form = PasswordChangeForm(user=request.user)
+        args = {'form': form}
+        return render(request, 'registration/change_password-invalid.html', args)

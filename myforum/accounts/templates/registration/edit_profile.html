@@ -1,11 +1,25 @@
 {% extends 'registration/base.html' %}
-
-{% block head %}
-<title>Profile</title>
-{% endblock %}
-
 {% block content %}
-<div class="container">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Edit Profile</title>
+</head>
+<!-- STYLES & JQUERY
+================================================== -->
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/icons.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/skinblue.css' %}"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/responsive.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'accounts/css/login.css'%}"/>
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'accounts/images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="96x96" href="{% static 'accounts/images/favicon-96x96.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'accounts/images/favicon-16x16.png' %}">
+<body>
+
+<div class="container login-card">
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}

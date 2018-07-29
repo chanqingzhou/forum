@@ -1,4 +1,5 @@
 {% extends 'registration/base.html' %}
+{% block content %}
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +21,14 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="{% static 'accounts/images/ms-icon-144x144.png' %}">
 <meta name="theme-color" content="#ffffff">
-{% block content %}
 
+        
 <div class="container text-center">
-   <a href="edit">Edit Profile</a>
+    <a href="edit" class="grid">Edit Profile</a>  |   
+    <a href="../change-password" class="grid">Change Password</a>
+
+    <br>
+  
     <div class="bold">
         <h1>Profile</h1>
         <p>Username: {{ user }} </p>
