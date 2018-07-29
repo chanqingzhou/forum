@@ -7,6 +7,7 @@ app_name='accounts'
 
 urlpatterns = [
     url(r'^signup/$', core_views.signup, name='signup'),
-    path('profile/', views.profile, name='profile' ),
     url(r'^timeline/$', views.timeline, name='timeline'),
+    url(r'^profile/$', views.view_profile, name='view_profile' ),
+    url(r'profile/edit/$', views.edit_profile, name='edit_profile'),
 ]

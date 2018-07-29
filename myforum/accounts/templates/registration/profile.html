@@ -22,15 +22,17 @@
 <meta name="theme-color" content="#ffffff">
 {% block content %}
 
-<div class="container">
-        <button about="submit"  name="delete" value="{{answer.id}}"> Edit Profile</button>
-    <h1>Profile</h1>
-    <p>Username: {{ user }} </p>
-    <p>First Name: {{ user.first_name }} </p>
-    <p>Last Name: {{ user.last_name }} </p>
-    <p>Email: {{ user.email }}</p>
-    <p> Number of Upvotes: </p>
-    <p> Number of Downvotes: </p>
+<div class="container text-center">
+   <a href="edit">Edit Profile</a>
+    <div class="bold">
+        <h1>Profile</h1>
+        <p>Username: {{ user }} </p>
+        <p>First Name: {{ user.first_name }} </p>
+        <p>Last Name: {{ user.last_name }} </p>
+        <p>Email: {{ user.email }}</p>
+        <p> Number of Upvotes: </p>
+        <p> Number of Downvotes: </p>
+    </div>  
 </div>
 
 {% endblock %}

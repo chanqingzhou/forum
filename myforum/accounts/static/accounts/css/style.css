@@ -79,6 +79,7 @@ em, i { font-style: italic; line-height: inherit; }
 strong, b { font-weight: bold; line-height: inherit; }
 small { font-size: 70%; line-height: inherit; }
 hr { border: solid #eee; border-width: 1px 0 0; clear: both; margin: 20px 0 -15px; height: 0; }
+bold {text-decoration: bold;}
 /* ----------------------------------------- Lists ------------------------------------------ */
 #topNav ul, ol { list-style-position: inside; text-indent: 5px; }
 ul, ol { margin-bottom: 8px }
